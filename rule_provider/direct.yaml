@@ -1,0 +1,34 @@
+payload:
+
+# > Local Network
+  - IP-CIDR,192.168.1.1/24
+  
+# > CUSTOM
+  # Google reCaptcha
+  - DOMAIN,www.google.com
+
+  # JKI
+  #- DOMAIN-SUFFIX,slojki.com
+  
+  # PLN Mobile
+  - DOMAIN,connect-gateway.pln.co.id
+  
+  # SI UJANG GATRIK
+  #- DOMAIN-SUFFIX,esdm.go.id
+  
+  # Shopee
+  - DOMAIN,api.shopee.co.id
+  - DOMAIN,cf.shopee.co.id
+  - DOMAIN,seller-app.shopee.co.id
+  - DOMAIN-SUFFIX,shopeemobile.com
+  
+  # Tokopedia
+  - DOMAIN,www.tokopedia.com
+  
+  # Zerotier
+  - DOMAIN-SUFFIX,zerotier.com
+  - DST-PORT,43899
+  - DST-PORT,9993
+  
+  # Zoom
+  - DOMAIN-SUFFIX,zoom.us
