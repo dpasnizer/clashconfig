@@ -6,15 +6,9 @@ payload:
 # > CUSTOM
   # Google reCaptcha
   - DOMAIN,www.google.com
-
-  # JKI
-  #- DOMAIN-SUFFIX,slojki.com
   
   # PLN Mobile
   - DOMAIN,connect-gateway.pln.co.id
-  
-  # SI UJANG GATRIK
-  #- DOMAIN-SUFFIX,esdm.go.id
   
   # Shopee
   - DOMAIN,api.shopee.co.id
