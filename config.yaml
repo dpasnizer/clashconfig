@@ -1,0 +1,119 @@
+---
+unified-delay: true
+port: 7890
+socks-port: 7891
+redir-port: 7892
+tproxy-port: 7893
+mixed-port: 7893
+allow-lan: true
+bind-address: "*"
+mode: rule
+external-controller: 127.0.0.1:9090
+hosts:
+profile:
+  store-selected: true
+  store-fake-ip: true
+dns:
+  enable: true
+  listen: 0.0.0.0:53
+  default-nameserver:
+  - 8.8.8.8
+  - 8.8.4.4
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+proxy-groups:
+- name: MANUAL SELECT
+  type: select
+  disable-udp: false
+  use:
+  - UNIVERSAL
+- name: BEST PING
+  type: url-test
+  disable-udp: false
+  use:
+  - UNIVERSAL
+  url: http://cp.cloudflare.com/generate_204
+  interval: '60'
+  tolerance: '150'
+- name: FALLBACK
+  type: fallback
+  disable-udp: false
+  use:
+  - UNIVERSAL
+  url: http://cp.cloudflare.com/generate_204
+  interval: '60'
+- name: LOAD BALANCE
+  type: load-balance
+  strategy: round-robin
+  disable-udp: false
+  use:
+  - UNIVERSAL
+  url: http://cp.cloudflare.com/generate_204
+  interval: '60'
+proxy-providers:
+  UNIVERSAL:
+    type: file
+    path: "./proxy_provider/proxies.yaml"
+    health-check:
+      enable: true
+      url: http://cp.cloudflare.com/generate_204
+      interval: 60
+rule-providers:
+  DIRECT:
+    type: file
+    behavior: classical
+    path: "./rule_provider/direct.yaml"
+  REJECT:
+    type: file
+    behavior: classical
+    path: "./rule_provider/reject.yaml"
+  Adult:
+    type: file
+    behavior: classical
+    path: "./rule_provider/adult.yaml"
+  Facebook:
+    type: file
+    behavior: classical
+    path: "./rule_provider/facebook.yaml"
+  Games:
+    type: file
+    behavior: classical
+    path: "./rule_provider/games.yaml"
+  Instagram:
+    type: file
+    behavior: classical
+    path: "./rule_provider/instagram.yaml"
+  TikTok:
+    type: file
+    behavior: classical
+    path: "./rule_provider/tiktok.yaml"
+  Twitter:
+    type: file
+    behavior: classical
+    path: "./rule_provider/twitter.yaml"
+  WhatsApp:
+    type: file
+    behavior: classical
+    path: "./rule_provider/whatsapp.yaml"
+  YouTube:
+    type: file
+    behavior: classical
+    path: "./rule_provider/youtube.yaml"
+tunnels:
+rules:
+# REJECT
+- RULE-SET,REJECT,REJECT
+
+# DIRECT
+- RULE-SET,DIRECT,DIRECT
+- RULE-SET,Games,DIRECT
+- RULE-SET,WhatsApp,DIRECT
+
+# TUNNEL
+- RULE-SET,Adult,GLOBAL
+- RULE-SET,Facebook,GLOBAL
+- RULE-SET,Instagram,GLOBAL
+- RULE-SET,TikTok,GLOBAL
+- RULE-SET,Twitter,GLOBAL
+- RULE-SET,YouTube,GLOBAL
+- MATCH,GLOBAL
