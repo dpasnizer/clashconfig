@@ -18,11 +18,9 @@ get () {
   if [[ "$CODE" =~ ^2 ]]; then
     echo " - $1"
   elif [[ "$CODE" = 404 ]]; then
-    echo -ne "\r - $1 (ERROR: Not Found)"
-    echo -ne "\n"
+    echo " - $1 (ERROR: Not Found)"
   else
-    echo -ne "ERROR: server returned HTTP code $CODE"
-    echo -ne "\n"
+    echo "ERROR: server returned HTTP code $CODE"
   fi
 }
 
