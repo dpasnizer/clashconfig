@@ -4,8 +4,23 @@ payload:
   - IP-CIDR,192.168.1.1/24
   
 # > CUSTOM
+  # Cloudflare
+  - DOMAIN-SUFFIX,cloudflare.com
+  
+  # Dana
+  - DOMAIN-SUFFIX,m.dana.id
+  
   # Google reCaptcha
   - DOMAIN,www.google.com
+  
+  # GoPay
+  - DOMAIN-SUFFIX,gojekapi.com
+  
+  # LinkAja
+  - DOMAIN-SUFFIX,linkaja.com
+  
+  # OVO
+  - DOMAIN-SUFFIX,ovo.id
   
   # PLN Mobile
   - DOMAIN,connect-gateway.pln.co.id
