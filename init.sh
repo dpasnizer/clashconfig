@@ -13,11 +13,10 @@ get () {
     return 0
   fi
 
-  echo -ne " - $1 "
+  echo -ne " - ...\r"
   CODE=$(curl -sSL -w '%{http_code}' -o $1 $2)
   if [[ "$CODE" =~ ^2 ]]; then
-    echo -ne "\r - $1 (success)"
-    echo -ne "\n"
+    echo " - $1"
   elif [[ "$CODE" = 404 ]]; then
     echo -ne "\r - $1 (ERROR: Not Found)"
     echo -ne "\n"
