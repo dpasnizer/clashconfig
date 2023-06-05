@@ -1,8 +1,9 @@
 #!/bin/bash
 
 echo "Usage: ./clash [option]"
-echo " - proxy     : Fetch proxy provider file(s)"
-echo " - rule      : Fetch rule provider file(s)"
+echo " - all       : Fetch all provider"
+echo " - proxy     : Fetch proxy provider"
+echo " - rule      : Fetch rule provider"
 echo " - update    : Update this script to newest version"
 
 URL="https://raw.githubusercontent.com/dpasnizer/clashconfig/main"
