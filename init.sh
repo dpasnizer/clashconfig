@@ -8,12 +8,13 @@ echo " - update    : Update this script to newest version"
 echo ""
 
 get () {
+  echo -ne " - ...\r"
+
   if [ ! -n "$1" ] || [ ! -n "$2" ]; then
-    echo " - ERROR"
+    echo " - ERROR, argument(s) required"
     return 0
   fi
 
-  echo -ne " - ...\r"
   CODE=$(curl -sSL -w '%{http_code}' -o $1 $2)
   if [[ "$CODE" =~ ^2 ]]; then
     echo " - $1"
