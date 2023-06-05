@@ -1,37 +1,51 @@
 #!/bin/bash
-
+clear
 echo "Usage: ./clash [option]"
 echo " - all       : Fetch all provider"
 echo " - proxy     : Fetch proxy provider"
 echo " - rule      : Fetch rule provider"
 echo " - update    : Update this script to newest version"
+echo ""
+
+get () {
+  if [ ! -n "$1" ] || [ ! -n "$2" ]; then
+    echo " - ERROR"
+    return 0
+  fi
+
+  echo -ne " - $1 "
+  CODE=$(curl -sSL -w '%{http_code}' -o $1 $2)
+  if [[ "$CODE" =~ ^2 ]]; then
+    echo -ne "\r - $1 (success)"
+    echo -ne "\n"
+  elif [[ "$CODE" = 404 ]]; then
+    echo -ne "\r - $1 (ERROR: Not Found)"
+    echo -ne "\n"
+  else
+    echo -ne "ERROR: server returned HTTP code $CODE"
+    echo -ne "\n"
+  fi
+}
 
 URL="https://raw.githubusercontent.com/dpasnizer/clashconfig/main"
 
 # rule provider
 echo "Fetching rule provider.."
-echo "- adult.yaml"
-curl -sS -o adult.yaml "${URL}/rule_provider/adult.yaml"
-echo "- direct.yaml"
-curl -sS -o direct.yaml "${URL}/rule_provider/direct.yaml"
-echo "- facebook.yaml"
-curl -sS -o facebook.yaml "${URL}/rule_provider/facebodok.yaml"
-echo "- games.yaml"
-curl -sS -o games.yaml "${URL}/rule_provider/games.yaml"
-echo "- instagram.yaml"
-curl -sS -o instagram.yaml "${URL}/rule_provider/instagram.yaml"
-echo "- reject.yaml"
-curl -sS -o reject.yaml "${URL}/rule_provider/reject.yaml"
-echo "- tiktok.yaml"
-curl -sS -o tiktok.yaml "${URL}/rule_provider/tiktok.yaml"
-echo "- twitter.yaml"
-curl -sS -o twitter.yaml "${URL}/rule_provider/twitter.yaml"
-echo "- whatsapp.yaml"
-curl -sS -o whatsapp.yaml "${URL}/rule_provider/whatsapp.yaml"
-echo "- youtube.yaml"
-curl -sS -o youtube.yaml "${URL}/rule_provider/youtube.yaml"
+get adult.yaml "${URL}/rule_provider/adult.yaml"
+get direct.yaml "${URL}/rule_provider/direct.yaml"
+get facebook.yaml "${URL}/rule_provider/facebook.yaml"
+get games.yaml "${URL}/rule_provider/games.yaml"
+get instagram.yaml "${URL}/rule_provider/instagram.yaml"
+get reject.yaml "${URL}/rule_provider/reject.yaml"
+get tiktok.yaml "${URL}/rule_provider/tiktok.yaml"
+get twitter.yaml "${URL}/rule_provider/twitter.yaml"
+get whatsapp.yaml "${URL}/rule_provider/whatsapp.yaml"
+get youtube.yaml "${URL}/rule_provider/youtube.yaml"
+echo ""
 
 # proxy provider
-echo "${URL}/proxy_provider/proxies.yaml"
+echo "Fetching proxy provider.."
+get proxies.yaml "${URL}/proxy_provider/proxies.yaml"
+echo ""
 
 echo "DONE!"
