@@ -1,5 +1,7 @@
 #!/bin/bash
+
 URL="https://raw.githubusercontent.com/dpasnizer/clashconfig/main"
+
 # rule provier
 echo "${URL}/rule_provider/adult.yaml"
 echo "${URL}/rule_provider/direct.yaml"
