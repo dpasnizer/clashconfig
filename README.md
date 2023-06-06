@@ -4,7 +4,7 @@ Abaikan aja bos, cuma untuk penggunaan pribadi.
 ## Installation
 To install this project, copy this command in Terminal and hit enter
 ```bash
-curl -L -o clash  "https://raw.githubusercontent.com/dpasnizer/clashconfig/main/init.sh" && chmod +x clash
+curl -sSL -o clash  "https://raw.githubusercontent.com/dpasnizer/clashconfig/main/init.sh" && chmod +x clash
 ```
 Please make sure you have an active connection.
 
