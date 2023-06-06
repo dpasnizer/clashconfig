@@ -13,6 +13,9 @@ payload:
   # Dana
   - DOMAIN-SUFFIX,m.dana.id
   
+  # Github
+  - DOMAIN,raw.githubusercontent.com:443
+  
   # Google reCaptcha
   - DOMAIN,www.google.com
   
