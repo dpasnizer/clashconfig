@@ -65,7 +65,7 @@ if [ "$1" = "proxy" ] || [ "$1" = "all" ]; then
   echo "Fetching proxy provider.."
   if [ -f "user.admin" ]; then
     if [ "$2" = "tester" ]; then
-      get "etc/openclash/proxy_provider/proxies.yaml" "${URL}/proxy_provider/proxies_tester.yaml"
+      get "etc/openclash/proxy_provider/tester.yaml" "${URL}/proxy_provider/proxies_tester.yaml"
       echo "   (TESTER proxies)"
     elif
       get "etc/openclash/proxy_provider/proxies.yaml" "${URL}/proxy_provider/proxies_premium.yaml"
