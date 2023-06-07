@@ -2,7 +2,7 @@
 clear
 
 URL="https://raw.githubusercontent.com/dpasnizer/clashconfig/main"
-COMMAND="all, proxy, rule, update"
+COMMAND="admin, all, client, proxy, rule, update"
 OCPATH=
 
 if [ ! -n "$1" ]; then
@@ -34,6 +34,16 @@ get () {
   fi
 }
 
+# set user as admin
+if [ "$1" = "admin" ]; then
+  touch user.admin
+fi
+
+# set user as client
+if [ "$1" = "client" ]; then
+  rm -f user.admin
+fi
+
 # rule provider
 if [ "$1" = "rule" ] || [ "$1" = "all" ]; then
   echo "Fetching rule provider.."
@@ -53,7 +63,11 @@ fi
 # proxy provider
 if [ "$1" = "proxy" ] || [ "$1" = "all" ]; then
   echo "Fetching proxy provider.."
-  get "etc/openclash/proxy_provider/proxies.yaml" "${URL}/proxy_provider/proxies.yaml"
+  if [ -f "user.admin" ]; then
+    get "etc/openclash/proxy_provider/proxies.yaml" "${URL}/proxy_provider/proxies_premium.yaml"
+  else
+    get "etc/openclash/proxy_provider/proxies.yaml" "${URL}/proxy_provider/proxies.yaml"
+  fi
   echo ""
 fi
 
