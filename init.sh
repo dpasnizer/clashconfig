@@ -57,6 +57,11 @@ if [ "$1" = "proxy" ] || [ "$1" = "all" ]; then
   echo ""
 fi
 
+# self-update
+if [ "$1" = "update" ]; then
+  curl -sSL -o clash  "${URL}/init.sh" && chmod +x clash
+fi
+
 # option error
 if [[ "$COMMAND" != *"$1"* ]]; then
   echo "ERROR: $1 is an invalid option"
