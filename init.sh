@@ -3,7 +3,6 @@ clear
 
 URL="https://raw.githubusercontent.com/dpasnizer/clashconfig/main"
 COMMAND="admin, all, client, proxy, rule, update"
-OCPATH=
 
 if [ ! -n "$1" ]; then
   echo ""
