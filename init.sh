@@ -71,7 +71,7 @@ if [ "$1" = "proxy" ] || [ "$1" = "all" ]; then
       echo "   (premium proxies)"
     fi
   else
-    if [ ! -n "$2" ]; then
+    if [ -n "$2" ]; then
       get "etc/openclash/proxy_provider/proxies.yaml" "${URL}/proxy_provider/proxies_${2}.yaml"
     else
       get "etc/openclash/proxy_provider/proxies.yaml" "${URL}/proxy_provider/proxies.yaml"
