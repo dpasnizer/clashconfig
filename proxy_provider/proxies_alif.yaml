@@ -1,7 +1,7 @@
 proxies:
 
 # TROJAN
-- name: "ID-TR"
+- name: "ID-TR noice"
   type: trojan
   server: 104.18.1.196
   port: 443
@@ -16,7 +16,7 @@ proxies:
       Host: idtr.jagoan.vip
 
 # TROJAN
-- name: "ID3-TR"
+- name: "ID3-TR noice"
   type: trojan
   server: 104.18.1.196
   port: 443
