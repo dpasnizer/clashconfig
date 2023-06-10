@@ -1,54 +1,6 @@
 proxies:
 
 # TROJAN
-- name: "ID-TR midtrans"
-  type: trojan
-  server: api.midtrans.com
-  port: 443
-  password: vvip-ID-CLIENT
-  udp: true
-  sni: idtr.jagoan.vip
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojan"
-    headers:
-      Host: idtr.jagoan.vip
-
-# TROJAN
-- name: "SG-DO midtrans"
-  type: trojan
-  server: api.midtrans.com
-  port: 443
-  password: 8c5057b0-0cb0-4258-8d0e-e52c651d945e
-  udp: true
-  sni: sg-do4.estebuh.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojan"
-    headers:
-      Host: sg-do4.estebuh.my.id
-
-# VMESS
-- name: "ID-NUSANET midtrans"
-  type: vmess
-  server: 104.17.3.81
-  port: 443
-  uuid: 68919584-1606-45eb-b495-7cbc3efe235b
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername: id-gcloud2.estebuh.my.id
-  network: ws
-  ws-opts:
-    path: "/vmess"
-    headers:
-      Host: id-gcloud2.estebuh.my.id
-
-# TROJAN
 - name: "ID-TR noice"
   type: trojan
   server: 104.18.1.196
@@ -97,6 +49,7 @@ proxies:
       Host: id-gcloud2.estebuh.my.id
 
 ---
+############### Template ###############
 # VMESS gRPC
 - name: "ID NUSA NET gRPC"
   type: vmess
@@ -112,3 +65,56 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: vmess
+############### Template ###############
+
+
+
+############### api.midtrans.com ###############
+# TROJAN
+- name: "ID-TR midtrans"
+  type: trojan
+  server: api.midtrans.com
+  port: 443
+  password: vvip-ID-CLIENT
+  udp: true
+  sni: idtr.jagoan.vip
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: idtr.jagoan.vip
+
+# TROJAN
+- name: "SG-DO midtrans"
+  type: trojan
+  server: api.midtrans.com
+  port: 443
+  password: 8c5057b0-0cb0-4258-8d0e-e52c651d945e
+  udp: true
+  sni: sg-do4.estebuh.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: sg-do4.estebuh.my.id
+
+# VMESS
+- name: "ID-NUSANET midtrans"
+  type: vmess
+  server: 104.17.3.81
+  port: 443
+  uuid: 68919584-1606-45eb-b495-7cbc3efe235b
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: id-gcloud2.estebuh.my.id
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers:
+      Host: id-gcloud2.estebuh.my.id
+############### api.midtrans.com ###############
