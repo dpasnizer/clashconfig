@@ -1,6 +1,31 @@
 proxies:
 
-# Shadowsocks
+############### HTTP ###############
+# HTTP
+- name: "http"
+  type: http
+  # interface-name: eth0
+  # routing-mark: 1234
+  server: server
+  port: 443
+  # username: username
+  # password: password
+
+# HTTPS
+- name: "http"
+  type: http
+  # interface-name: eth0
+  # routing-mark: 1234
+  server: server
+  port: 443
+  tls: true
+  # skip-cert-verify: true
+  # sni: custom.com
+  # username: username
+  # password: password
+
+############### Shadowsocks ###############
+# basic
 - name: "ss1"
   type: ss
   # interface-name: eth0
@@ -10,8 +35,8 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: "password"
   # udp: true
-  
-# Shadowsocks (obfs)
+
+# obfs
 - name: "ss2"
   type: ss
   # interface-name: eth0
@@ -25,7 +50,7 @@ proxies:
     mode: tls # or http
     # host: bing.com
 
-# Shadowsocks (websocket)
+# websocket
 - name: "ss3"
   type: ss
   # interface-name: eth0
@@ -44,3 +69,175 @@ proxies:
     # mux: true
     # headers:
     #   custom: value
+
+############### ShadowsocksR ###############
+# basic
+- name: "ssr"
+  type: ssr
+  # interface-name: eth0
+  # routing-mark: 1234
+  server: server
+  port: 443
+  cipher: chacha20-ietf
+  password: "password"
+  obfs: tls1.2_ticket_auth
+  protocol: auth_sha1_v4
+  # obfs-param: domain.tld
+  # protocol-param: "#"
+  # udp: true
+
+############### Snell ###############
+# basic
+# No UDP support yet
+- name: "snell"
+  type: snell
+  # interface-name: eth0
+  # routing-mark: 1234
+  server: server
+  port: 44046
+  psk: yourpsk
+  # version: 2
+  # obfs-opts:
+    # mode: http # or tls
+    # host: bing.com
+
+############### SOCKS5 ###############
+# basic
+- name: "socks"
+  type: socks5
+  # interface-name: eth0
+  # routing-mark: 1234
+  server: server
+  port: 443
+  # username: username
+  # password: password
+  # tls: true
+  # skip-cert-verify: true
+  # udp: true
+
+############### Trojan ###############
+# basic
+- name: "trojan"
+  type: trojan
+  # interface-name: eth0
+  # routing-mark: 1234
+  server: server
+  port: 443
+  password: yourpsk
+  # udp: true
+  # sni: example.com # aka server name
+  # alpn:
+  #   - h2
+  #   - http/1.1
+  # skip-cert-verify: true
+
+# gRPC
+- name: trojan-grpc
+  type: trojan
+  # interface-name: eth0
+  # routing-mark: 1234
+  server: server
+  port: 443
+  password: "example"
+  network: grpc
+  sni: example.com
+  # skip-cert-verify: true
+  udp: true
+  grpc-opts:
+    grpc-service-name: "example"
+
+# websocket
+- name: trojan-ws
+  type: trojan
+  # interface-name: eth0
+  # routing-mark: 1234
+  server: server
+  port: 443
+  password: "example"
+  network: ws
+  sni: example.com
+  # skip-cert-verify: true
+  udp: true
+  # ws-opts:
+    # path: /path
+    # headers:
+    #   Host: example.com
+
+############### Vmess ###############
+# basic
+- name: "vmess"
+  type: vmess
+  # interface-name: eth0
+  # routing-mark: 1234
+  server: server
+  port: 443
+  uuid: uuid
+  alterId: 32
+  cipher: auto
+  # udp: true
+  # tls: true
+  # skip-cert-verify: true
+  # servername: example.com # priority over wss host
+  # network: ws
+  # ws-opts:
+  #   path: /path
+  #   headers:
+  #     Host: v2ray.com
+  #   max-early-data: 2048
+  #   early-data-header-name: Sec-WebSocket-Protocol
+
+# HTTP
+- name: "vmess-http"
+  type: vmess
+  # interface-name: eth0
+  # routing-mark: 1234
+  server: server
+  port: 443
+  uuid: uuid
+  alterId: 32
+  cipher: auto
+  # udp: true
+  # network: http
+  # http-opts:
+  #   # method: "GET"
+  #   # path:
+  #   #   - '/'
+  #   #   - '/video'
+  #   # headers:
+  #   #   Connection:
+  #   #     - keep-alive
+
+# HTTP/2
+- name: "vmess-h2"
+  type: vmess
+  # interface-name: eth0
+  # routing-mark: 1234
+  server: server
+  port: 443
+  uuid: uuid
+  alterId: 32
+  cipher: auto
+  network: h2
+  tls: true
+  h2-opts:
+    host:
+      - http.example.com
+      - http-alt.example.com
+    path: /
+
+# gRPC
+- name: vmess-grpc
+  type: vmess
+  # interface-name: eth0
+  # routing-mark: 1234
+  server: server
+  port: 443
+  uuid: uuid
+  alterId: 32
+  cipher: auto
+  network: grpc
+  tls: true
+  servername: example.com
+  # skip-cert-verify: true
+  grpc-opts:
+    grpc-service-name: "example"
