@@ -1,6 +1,20 @@
 proxies:
 
 # TROJAN
+- name: "ID-NUSANET"
+  type: trojan
+  server: 104.18.1.196
+  port: 443
+  password: c831dae6-bc6d-4af6-abd4-c0f95e11e368
+  udp: true
+  sni: id-nusa1.estebuh.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: id-nusa1.estebuh.my.id
+      
 - name: "ID-TR noice"
   type: trojan
   server: 104.18.1.196
@@ -14,36 +28,3 @@ proxies:
     path: "/trojan"
     headers:
       Host: idtr.jagoan.vip
-
-# TROJAN
-- name: "SG-DO noice"
-  type: trojan
-  server: 104.18.1.196
-  port: 443
-  password: 8c5057b0-0cb0-4258-8d0e-e52c651d945e
-  udp: true
-  sni: sg-do4.estebuh.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojan"
-    headers:
-      Host: sg-do4.estebuh.my.id
-
-# VMESS
-- name: "ID-NUSANET noice"
-  type: vmess
-  server: 104.18.1.196
-  port: 443
-  uuid: 68919584-1606-45eb-b495-7cbc3efe235b
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername: id-gcloud2.estebuh.my.id
-  network: ws
-  ws-opts:
-    path: "/vmess"
-    headers:
-      Host: id-gcloud2.estebuh.my.id
