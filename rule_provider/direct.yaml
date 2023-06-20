@@ -38,6 +38,7 @@ payload:
   - DOMAIN,api.shopee.co.id
   - DOMAIN,cf.shopee.co.id
   - DOMAIN,seller-app.shopee.co.id
+  - DOMAIN-SUFFIX,shopee.io
   - DOMAIN-SUFFIX,shopeemobile.com
   
   # Tokopedia
