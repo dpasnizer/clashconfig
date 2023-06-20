@@ -2,13 +2,14 @@
 clear
 
 URL="https://raw.githubusercontent.com/dpasnizer/clashconfig/main"
-COMMAND="admin, all, client, proxy, rule, update"
+COMMAND="admin, all, client, proxy, restart, rule, update"
 
 if [ ! -n "$1" ]; then
   echo ""
   echo "Usage: ./clash [option]"
   echo " - all       : Fetch all provider"
   echo " - proxy     : Fetch proxy provider"
+  echo " - restart   : Restart Openclash"
   echo " - rule      : Fetch rule provider"
   echo " - update    : Update this script to newest version"
   echo ""
@@ -41,6 +42,11 @@ fi
 # set user as client
 if [ "$1" = "client" ]; then
   rm -f user.admin
+fi
+
+# restart openclash
+if [ "$1" = "restart" ]; then
+  /etc/init.d/openclash restart
 fi
 
 # rule provider
