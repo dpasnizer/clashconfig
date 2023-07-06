@@ -16,16 +16,16 @@ proxies:
       Host: id-gcloud1.estebuh.my.id
 
 # TROJAN
-- name: "ID-Nusanet"
+- name: "ID-Magna"
   type: trojan
   server: 104.18.1.196
   port: 443
-  password: c831dae6-bc6d-4af6-abd4-c0f95e11e368
+  password: d82e3746-ab14-4e27-877e-8110a3d29aaf
   udp: true
-  sni: id-nusa1.estebuh.my.id
+  sni: id-magna1.estebuh.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojan"
     headers:
-      Host: id-nusa1.estebuh.my.id
+      Host: id-magna1.estebuh.my.id
