@@ -22,7 +22,7 @@ payload:
   - DST-PORT,5503
 
   # Riot Games
-  ## League of Legends, VALORANT, Teamfight Tactics, Legends of Runeterra, and Wild Rift
+  ## Legends of Runeterra, Teamfight Tactics, Wild Rift
   - DOMAIN-SUFFIX,account.riotgames.com
   - DOMAIN-SUFFIX,auth.riotgames.com
   - DOMAIN-SUFFIX,data.riotgames.com
