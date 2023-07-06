@@ -23,5 +23,11 @@ payload:
 
   # Riot Games
   ## League of Legends, VALORANT, Teamfight Tactics, Legends of Runeterra, and Wild Rift
+  - DOMAIN-SUFFIX,account.riotgames.com
+  - DOMAIN-SUFFIX,auth.riotgames.com
+  - DOMAIN-SUFFIX,data.riotgames.com
+  - DOMAIN-SUFFIX,playerpreferences.riotgames.com
   - DOMAIN-SUFFIX,pvp.net
-  - DOMAIN-SUFFIX,riotgames.com
+  - DOMAIN-SUFFIX,riotcdn.net
+  - DOMAIN-SUFFIX,rpg.riotgames.com
+  - DOMAIN-SUFFIX,si.riotgames.com
