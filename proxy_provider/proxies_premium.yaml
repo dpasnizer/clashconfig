@@ -1,7 +1,7 @@
 proxies:
 
 # TROJAN
-- name: "sg-do4.estebuh.my.id"
+- name: "DigitalOcean"
   type: trojan
   server: 104.18.1.196
   port: 443
@@ -16,7 +16,7 @@ proxies:
       Host: sg-do4.estebuh.my.id
 
 # TROJAN
-- name: "id-gcloud1.estebuh.my.id"
+- name: "Biznet GioCloud"
   type: trojan
   server: 104.18.1.196
   port: 443
@@ -31,7 +31,7 @@ proxies:
       Host: id-gcloud1.estebuh.my.id
 
 # TROJAN
-- name: "id-magna1.estebuh.my.id"
+- name: "Magna Network"
   type: trojan
   server: 104.18.1.196
   port: 443
