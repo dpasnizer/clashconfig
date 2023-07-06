@@ -20,3 +20,8 @@ payload:
   
   # Mobile Legends
   - DST-PORT,5503
+
+  # Riot Games
+  ## League of Legends, VALORANT, Teamfight Tactics, Legends of Runeterra, and Wild Rift
+  - DOMAIN-SUFFIX,pvp.net
+  - DOMAIN-SUFFIX,riotgames.com
