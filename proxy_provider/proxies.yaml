@@ -16,7 +16,7 @@ proxies:
       Host: id-gcloud1.estebuh.my.id
 
 # TROJAN
-- name: "ID-Magna"
+- name: "ID-Magna Network"
   type: trojan
   server: 104.18.1.196
   port: 443
