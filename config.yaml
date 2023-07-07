@@ -1,32 +1,82 @@
 ---
 unified-delay: true
+
+# Port of HTTP(S) proxy server on the local end
 port: 7890
+
+# Port of SOCKS5 proxy server on the local end
 socks-port: 7891
-redir-port: 7892
-tproxy-port: 7893
-mixed-port: 7893
+
+# Transparent proxy server port for Linux and macOS (Redirect TCP and TProxy UDP)
+# redir-port: 7892
+
+# Transparent proxy server port for Linux (TProxy TCP and TProxy UDP)
+# tproxy-port: 7893
+
+# HTTP(S) and SOCKS4(A)/SOCKS5 server on the same port
+# mixed-port: 7893
+
+# to allow connections to the local-end server from other LAN IP addresses
 allow-lan: true
+
+# This is only applicable when `allow-lan` is `true`
+# '*': bind all IP addresses
+# 192.168.122.11: bind a single IPv4 address
+# "[aaaa::a8aa:ff:fe09:57d8]": bind a single IPv6 address
 bind-address: "*"
+
+# Clash router working mode
+# rule: rule-based packet routing
+# global: all packets will be forwarded to a single endpoint
+# direct: directly forward the packets to the Internet
 mode: rule
+
+# RESTful web API listening address
 external-controller: 127.0.0.1:9090
-hosts:
+
 profile:
+  # Store the `select` results in $HOME/.config/clash/.cache
+  # set false If you don't want this behavior
+  # when two different configurations have groups with the same name, the selected values are shared
   store-selected: true
+  # persistence fakeip
   store-fake-ip: true
+
+# DNS server settings
+# This section is optional. When not present, the DNS server will be disabled.
 dns:
   enable: true
   listen: 0.0.0.0:53
+
+  # These nameservers are used to resolve the DNS nameserver hostnames below.
+  # Specify IP addresses only
   default-nameserver:
   - 8.8.8.8
   - 8.8.4.4
+  
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
+
+  # Supports UDP, TCP, DoT, DoH. You can specify the port to connect to.
+  # All DNS questions are sent directly to the nameserver, without proxies
+  # involved. Clash answers the DNS question with the first result gathered.
+  nameserver:
+    - 8.8.8.8
+    - 8.8.4.4
+    - https://dns.adguard.com/dns-query
+    - https://dns.google/dns-query
+    - tls://dns.adguard.com
+    - tls://dns.google
+
 proxy-groups:
+# select is used for selecting proxy or proxy group
 - name: MANUAL SELECT
   type: select
   disable-udp: false
   use:
   - UNIVERSAL
+
+# url-test select which proxy will be used by benchmarking speed to a URL.
 - name: BEST PING
   type: url-test
   disable-udp: false
@@ -35,6 +85,8 @@ proxy-groups:
   url: http://cp.cloudflare.com/generate_204
   interval: '60'
   tolerance: '150'
+
+# fallback selects an available policy by priority. The availability is tested by accessing an URL, just like an auto url-test group.
 - name: FALLBACK
   type: fallback
   disable-udp: false
@@ -42,6 +94,8 @@ proxy-groups:
   - UNIVERSAL
   url: http://cp.cloudflare.com/generate_204
   interval: '60'
+
+# load-balance: The request of the same eTLD+1 will be dial to the same proxy.
 - name: LOAD BALANCE
   type: load-balance
   strategy: round-robin
@@ -50,6 +104,7 @@ proxy-groups:
   - UNIVERSAL
   url: http://cp.cloudflare.com/generate_204
   interval: '60'
+
 proxy-providers:
   UNIVERSAL:
     type: file
@@ -58,6 +113,7 @@ proxy-providers:
       enable: true
       url: http://cp.cloudflare.com/generate_204
       interval: 60
+
 rule-providers:
   DIRECT:
     type: file
@@ -99,7 +155,7 @@ rule-providers:
     type: file
     behavior: classical
     path: "./rule_provider/youtube.yaml"
-tunnels:
+
 rules:
 # REJECT
 - RULE-SET,REJECT,REJECT
