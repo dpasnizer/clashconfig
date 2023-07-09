@@ -51,9 +51,18 @@ dns:
   # These nameservers are used to resolve the DNS nameserver hostnames below.
   # Specify IP addresses only
   default-nameserver:
-  - 8.8.8.8
-  - 8.8.4.4
-  
+  # AdGuard DNS
+  - 94.140.14.14
+  - 94.140.15.15
+
+  # Cloudflare DNS
+  - 1.1.1.1
+  - 1.0.0.1
+
+  # Google DNS
+  # - 8.8.8.8
+  # - 8.8.4.4
+
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
 
@@ -61,12 +70,23 @@ dns:
   # All DNS questions are sent directly to the nameserver, without proxies
   # involved. Clash answers the DNS question with the first result gathered.
   nameserver:
-    - 8.8.8.8
-    - 8.8.4.4
-    - https://dns.adguard.com/dns-query
-    - https://dns.google/dns-query
-    - tls://dns.adguard.com
-    - tls://dns.google
+    # AdGuard DNS
+    # - 94.140.14.14
+    # - 94.140.15.15
+    # - https://dns.adguard-dns.com/dns-query
+    # - tls://dns.adguard-dns.com
+
+    # Cloudflare DNS
+    - 1.1.1.1
+    - 1.0.0.1
+    - https://dns.cloudflare.com/dns-query
+    - tls://1dot1dot1dot1.cloudflare-dns.com
+
+    # Google DNS
+    # - 8.8.8.8
+    # - 8.8.4.4
+    # - https://dns.google/dns-query
+    # - tls://dns.google
 
 proxy-groups:
 # select is used for selecting proxy or proxy group
