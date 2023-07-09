@@ -46,7 +46,6 @@ profile:
 # This section is optional. When not present, the DNS server will be disabled.
 dns:
   enable: true
-  listen: 0.0.0.0:53
 
   # These nameservers are used to resolve the DNS nameserver hostnames below.
   # Specify IP addresses only
@@ -62,9 +61,6 @@ dns:
   # Google DNS
   # - 8.8.8.8
   # - 8.8.4.4
-
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
 
   # Supports UDP, TCP, DoT, DoH. You can specify the port to connect to.
   # All DNS questions are sent directly to the nameserver, without proxies
