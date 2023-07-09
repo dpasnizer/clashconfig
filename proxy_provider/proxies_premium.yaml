@@ -1,51 +1,6 @@
 proxies:
 
 # TROJAN
-- name: "Biznet GioCloud"
-  type: trojan
-  server: 104.18.1.196
-  port: 443
-  password: 9d6731db-6755-4e3d-8038-c8b90a44b39b
-  udp: true
-  sni: id-gcloud1.estebuh.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojan"
-    headers:
-      Host: id-gcloud1.estebuh.my.id
-
-# TROJAN
-- name: "DigitalOcean"
-  type: trojan
-  server: 104.18.1.196
-  port: 443
-  password: 8c5057b0-0cb0-4258-8d0e-e52c651d945e
-  udp: true
-  sni: sg-do4.estebuh.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojan"
-    headers:
-      Host: sg-do4.estebuh.my.id
-
-# TROJAN
-- name: "Magna Network"
-  type: trojan
-  server: 104.18.1.196
-  port: 443
-  password: d82e3746-ab14-4e27-877e-8110a3d29aaf
-  udp: true
-  sni: id-magna1.estebuh.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojan"
-    headers:
-      Host: id-magna1.estebuh.my.id
-
-# TROJAN
 - name: "ID-TR"
   type: trojan
   server: 104.18.1.196
