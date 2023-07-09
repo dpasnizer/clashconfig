@@ -1,11 +1,11 @@
 proxies:
 
 # TROJAN
-- name: "ID-TR noice"
+- name: "ID-TR"
   type: trojan
   server: 104.18.1.196
   port: 443
-  password: vvip-IDTR-ALIF
+  password: vvip-ID-CLIENT
   udp: true
   sni: idtr.jagoan.vip
   skip-cert-verify: true
@@ -16,7 +16,22 @@ proxies:
       Host: idtr.jagoan.vip
 
 # TROJAN
-- name: "ID3-TR noice"
+- name: "ID-TR 2"
+  type: trojan
+  server: 104.18.1.196
+  port: 443
+  password: vvip-premium123
+  udp: true
+  sni: id2tr.jagoan.vip
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: id2tr.jagoan.vip
+
+# TROJAN
+- name: "ID-TR 3"
   type: trojan
   server: 104.18.1.196
   port: 443
