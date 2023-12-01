@@ -9,15 +9,15 @@ dns:
   # These nameservers are used to resolve the DNS nameserver hostnames below.
   # Specify IP addresses only
   default-nameserver:
-  # AdGuard DNS
+  # Option 1 | AdGuard DNS
   # - 94.140.14.14
   # - 94.140.15.15
 
-  # Cloudflare DNS
+  # Option 2 | Cloudflare DNS
   - 1.1.1.1
   - 1.0.0.1
 
-  # Google DNS
+  # Option 3 | Google DNS
   # - 8.8.8.8
   # - 8.8.4.4
 
@@ -25,19 +25,19 @@ dns:
   # All DNS questions are sent directly to the nameserver, without proxies
   # involved. Clash answers the DNS question with the first result gathered.
   nameserver:
-    # AdGuard DNS
+    # Option 1 | AdGuard DNS
     # - 94.140.14.14
     # - 94.140.15.15
     # - https://dns.adguard-dns.com/dns-query
     # - tls://dns.adguard-dns.com
 
-    # Cloudflare DNS
+    # Option 2 | Cloudflare DNS
     - 1.1.1.1
     - 1.0.0.1
     - https://dns.cloudflare.com/dns-query
     - tls://1dot1dot1dot1.cloudflare-dns.com
 
-    # Google DNS
+    # Option 3 | Google DNS
     # - 8.8.8.8
     # - 8.8.4.4
     # - https://dns.google/dns-query
