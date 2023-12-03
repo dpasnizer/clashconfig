@@ -61,9 +61,7 @@ proxy-groups:
   proxies:
   - DIRECT
   - REJECT
-  use:
-  - WAN-1
-  - WAN-2
+  - GLOBAL
 
 # url-test select which proxy will be used by benchmarking speed to a URL.
 - name: BEST PING 1
