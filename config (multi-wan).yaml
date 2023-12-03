@@ -49,14 +49,26 @@ proxy-groups:
   type: select
   disable-udp: false
   use:
-  - UNIVERSAL
+  - DIRECT
+  - WAN-1
+  - WAN-2
 
 # url-test select which proxy will be used by benchmarking speed to a URL.
-- name: BEST PING
+- name: BEST PING 1
   type: url-test
   disable-udp: false
   use:
-  - UNIVERSAL
+  - WAN-1
+  url: http://cp.cloudflare.com/generate_204
+  interval: '60'
+  tolerance: '150'
+
+# url-test select which proxy will be used by benchmarking speed to a URL.
+- name: BEST PING 2
+  type: url-test
+  disable-udp: false
+  use:
+  - WAN-2
   url: http://cp.cloudflare.com/generate_204
   interval: '60'
   tolerance: '150'
@@ -65,8 +77,11 @@ proxy-groups:
 - name: FALLBACK
   type: fallback
   disable-udp: false
-  use:
-  - UNIVERSAL
+  proxies:
+  - BEST PING 2
+  - BEST PING 1
+  # use:
+  # - UNIVERSAL
   url: http://cp.cloudflare.com/generate_204
   interval: '60'
 
@@ -75,15 +90,41 @@ proxy-groups:
   type: load-balance
   strategy: round-robin
   disable-udp: false
-  use:
-  - UNIVERSAL
+  proxies:
+  - BEST PING 1
+  - BEST PING 2
+  # use:
+  # - UNIVERSAL
   url: http://cp.cloudflare.com/generate_204
   interval: '60'
+
+# select is used for selecting proxy or proxy group
+- name: TESTER
+  type: select
+  disable-udp: false
+  use:
+  - UNIVERSAL
 
 proxy-providers:
   UNIVERSAL:
     type: file
     path: "./proxy_provider/proxies.yaml"
+    health-check:
+      enable: true
+      url: http://cp.cloudflare.com/generate_204
+      interval: 60
+
+  WAN-1:
+    type: file
+    path: "./proxy_provider/wan1.yaml"
+    health-check:
+      enable: true
+      url: http://cp.cloudflare.com/generate_204
+      interval: 60
+
+  WAN-2:
+    type: file
+    path: "./proxy_provider/wan2.yaml"
     health-check:
       enable: true
       url: http://cp.cloudflare.com/generate_204
