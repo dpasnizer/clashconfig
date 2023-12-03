@@ -188,12 +188,12 @@ rules:
 # REJECT
 - RULE-SET,REJECT,REJECT
 
-# DIRECT || local, priority traffic
+# DIRECT || local, traffic priority
 - RULE-SET,DIRECT,DIRECT
 - RULE-SET,Games,DIRECT
 - RULE-SET,WhatsApp,DIRECT
 
-# SPECIAL ACCESS || confirmation needed
+# SPECIAL ACCESS
 - RULE-SET,Adult,SPECIAL ACCESS
 
 # TUNNEL
