@@ -59,9 +59,11 @@ proxy-groups:
   type: select
   disable-udp: false
   proxies:
-  - DIRECT
   - REJECT
-  - GLOBAL
+  - BEST PING 1
+  - BEST PING 2
+  - FALLBACK
+  - LOAD BALANCE
 
 # url-test select which proxy will be used by benchmarking speed to a URL.
 - name: BEST PING 1
