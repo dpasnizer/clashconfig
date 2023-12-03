@@ -48,8 +48,9 @@ proxy-groups:
 - name: MANUAL SELECT
   type: select
   disable-udp: false
-  use:
+  proxies:
   - DIRECT
+  use:
   - WAN-1
   - WAN-2
 
@@ -57,9 +58,10 @@ proxy-groups:
 - name: SPECIAL ACCESS
   type: select
   disable-udp: false
-  use:
+  proxies:
   - DIRECT
   - REJECT
+  use:
   - WAN-1
   - WAN-2
 
