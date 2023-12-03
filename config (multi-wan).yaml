@@ -53,6 +53,16 @@ proxy-groups:
   - WAN-1
   - WAN-2
 
+# select is used for selecting proxy or proxy group
+- name: SPECIAL ACCESS
+  type: select
+  disable-udp: false
+  use:
+  - DIRECT
+  - REJECT
+  - WAN-1
+  - WAN-2
+
 # url-test select which proxy will be used by benchmarking speed to a URL.
 - name: BEST PING 1
   type: url-test
@@ -176,15 +186,15 @@ rules:
 # REJECT
 - RULE-SET,REJECT,REJECT
 
-# DIRECT
+# DIRECT || local, priority traffic
 - RULE-SET,DIRECT,DIRECT
 - RULE-SET,Games,DIRECT
 - RULE-SET,WhatsApp,DIRECT
 
-# S
+# SPECIAL ACCESS || confirmation needed
+- RULE-SET,Adult,SPECIAL ACCESS
 
 # TUNNEL
-- RULE-SET,Adult,GLOBAL
 - RULE-SET,Facebook,GLOBAL
 - RULE-SET,Instagram,GLOBAL
 - RULE-SET,TikTok,GLOBAL
