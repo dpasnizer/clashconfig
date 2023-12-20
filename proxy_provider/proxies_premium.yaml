@@ -1,46 +1,31 @@
 proxies:
 
 # TROJAN
-- name: "ID-TR"
+- name: "SG-DigitalOcean"
   type: trojan
-  server: 104.18.1.196
+  server: layanan.ruangguru.com
   port: 443
-  password: vvip-ID-CLIENT
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
   udp: true
-  sni: idtr.jagoan.vip
+  sni: rmatvpn.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojan"
     headers:
-      Host: idtr.jagoan.vip
+      Host: rmatvpn.my.id
 
 # TROJAN
-- name: "ID-TR 2"
+- name: "ID-Nusanet"
   type: trojan
-  server: 104.18.1.196
+  server: layanan.ruangguru.com
   port: 443
-  password: vvip-premium123
+  password: 9d21f4d2-9722-4ed6-9b63-a908060c83ad
   udp: true
-  sni: id2tr.jagoan.vip
+  sni: ikd-viprext.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojan"
     headers:
-      Host: id2tr.jagoan.vip
-
-# TROJAN
-- name: "ID-TR 3"
-  type: trojan
-  server: 104.18.1.196
-  port: 443
-  password: vvip-IDTR-ALIF-0603
-  udp: true
-  sni: id3tr.jagoan.vip
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojan"
-    headers:
-      Host: id3tr.jagoan.vip
+      Host: ikd-viprext.my.id
