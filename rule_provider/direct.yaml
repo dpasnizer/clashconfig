@@ -13,6 +13,9 @@ payload:
   # Dana
   - DOMAIN-SUFFIX,m.dana.id
   
+  # Datatabu
+  - DOMAIN-SUFFIX,datatabu.com
+  
   # Github
   - DOMAIN,raw.githubusercontent.com
   
@@ -21,15 +24,21 @@ payload:
   
   # GoPay
   - DOMAIN-SUFFIX,gojekapi.com
+  - DOMAIN-SUFFIX,gopayapi.com
   
   # LinkAja
   - DOMAIN-SUFFIX,linkaja.com
+  
+  # Neo Bank
+  - DOMAIN-SUFFIX,bankneo.co.id
   
   # OVO
   - DOMAIN-SUFFIX,ovo.id
   
   # PLN Mobile
   - DOMAIN,connect-gateway.pln.co.id
+  - DOMAIN-SUFFIX,iconcash.id
+  - DOMAIN-SUFFIX,plndigital.id
   
   # SeaBank
   - DOMAIN-SUFFIX,seabank.co.id
@@ -44,10 +53,13 @@ payload:
   # Tokopedia
   - DOMAIN,www.tokopedia.com
   
+  # Ujang Gatrik
+  - DOMAIN,siujang.esdm.go.id
+  
   # Zerotier
   - DOMAIN-SUFFIX,zerotier.com
   - DST-PORT,43899
   - DST-PORT,9993
   
   # Zoom
-  - DOMAIN-SUFFIX,zoom.us
+  #- DOMAIN-SUFFIX,zoom.us
