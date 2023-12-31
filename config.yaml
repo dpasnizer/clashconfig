@@ -51,6 +51,16 @@ proxy-groups:
   use:
   - UNIVERSAL
 
+# select is used for selecting proxy or proxy group
+- name: SPECIAL ACCESS
+  type: select
+  disable-udp: false
+  proxies:
+  - REJECT
+  - BEST PING
+  - FALLBACK
+  - LOAD BALANCE
+
 # url-test select which proxy will be used by benchmarking speed to a URL.
 - name: BEST PING
   type: url-test
@@ -140,8 +150,10 @@ rules:
 - RULE-SET,Games,DIRECT
 - RULE-SET,WhatsApp,DIRECT
 
+# SPECIAL ACCESS
+- RULE-SET,Adult,SPECIAL ACCESS
+
 # TUNNEL
-- RULE-SET,Adult,GLOBAL
 - RULE-SET,Facebook,GLOBAL
 - RULE-SET,Instagram,GLOBAL
 - RULE-SET,TikTok,GLOBAL
