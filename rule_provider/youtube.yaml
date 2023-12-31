@@ -1,6 +1,8 @@
 payload:
 
 # > YouTube
+  - DOMAIN-SUFFIX,usercontent.google.com
+
   - DOMAIN-KEYWORD,googlevideo
   - DOMAIN-KEYWORD,gvt1
   - DOMAIN-KEYWORD,gvt2
