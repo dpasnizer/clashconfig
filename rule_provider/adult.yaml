@@ -1,6 +1,38 @@
 payload:
 
+# > Browser (Opera, Operamini, UC Browser)
+  - DOMAIN-KEYWORD,opera
+  
+  - DOMAIN-SUFFIX,opera.com
+  - DOMAIN-SUFFIX,opera-api.com
+  - DOMAIN-SUFFIX,opera-mini.net
+  - DOMAIN-SUFFIX,opera-proxy.net
+  - DOMAIN-SUFFIX,sec-tunnel.com
+  - DOMAIN-SUFFIX,surfeasy.com
+
+# > File / Video Host
+  # Doodstream
+  - DOMAIN-SUFFIX,doods.pro
+  - DOMAIN-SUFFIX,doods.re
+  - DOMAIN-SUFFIX,doodcdn.com
+  - DOMAIN-SUFFIX,doodstream.com
+  - DOMAIN-SUFFIX,ds2play.com
+  - DOMAIN-SUFFIX,poop.cx
+  
+  # Pasteyou
+  - DOMAIN-SUFFIX,pasteyou.com
+  
+  # Terabox
+  - DOMAIN-SUFFIX,terabox.app
+  - DOMAIN-SUFFIX,terabox.com
+  - DOMAIN-SUFFIX,teraboxapp.com
+  
 # > Adult Sites
+  - DOMAIN-KEYWORD,memek
+  - DOMAIN-KEYWORD,bokep
+  - DOMAIN-KEYWORD,coli
+  - DOMAIN-KEYWORD,porn
+  
   - DOMAIN-SUFFIX,0plkijj.vip
   - DOMAIN-SUFFIX,114av.xyz
   - DOMAIN-SUFFIX,128100.xyz
@@ -65,6 +97,7 @@ payload:
   - DOMAIN-SUFFIX,calvappd.me
   - DOMAIN-SUFFIX,cam4.com
   - DOMAIN-SUFFIX,camwhores.tv
+  - DOMAIN-SUFFIX,cdn77.scoreuniverse.com
   - DOMAIN-SUFFIX,cdnlab.live
   - DOMAIN-SUFFIX,chaturbate.com
   - DOMAIN-SUFFIX,cslpldyb.me
@@ -84,6 +117,7 @@ payload:
   - DOMAIN-SUFFIX,findercdn.me
   - DOMAIN-SUFFIX,flirt4free.com
   - DOMAIN-SUFFIX,follasian.com
+  - DOMAIN-SUFFIX,fullxhcdn.com
   - DOMAIN-SUFFIX,gaypad.net
   - DOMAIN-SUFFIX,gouri.xyz
   - DOMAIN-SUFFIX,hanime.tv
@@ -128,7 +162,7 @@ payload:
   - DOMAIN-SUFFIX,javhd.pro
   - DOMAIN-SUFFIX,javhd3x.com
   - DOMAIN-SUFFIX,javhdfree.net
-  - DOMAIN-SUFFIX,javlibrary.com
+  #- DOMAIN-SUFFIX,javlibrary.com
   - DOMAIN-SUFFIX,javmodel.com
   - DOMAIN-SUFFIX,javmost.com
   - DOMAIN-SUFFIX,javqd.com
@@ -156,6 +190,7 @@ payload:
   - DOMAIN-SUFFIX,metartnetwork.com
   - DOMAIN-SUFFIX,metcams.com
   - DOMAIN-SUFFIX,myavfun.com
+  - DOMAIN-SUFFIX,myavlive.com
   - DOMAIN-SUFFIX,mydirtyhobby.com
   - DOMAIN-SUFFIX,myfreecams.com
   - DOMAIN-SUFFIX,naiadsystems.com
@@ -163,6 +198,7 @@ payload:
   - DOMAIN-SUFFIX,nekoxxx.com
   - DOMAIN-SUFFIX,netflav.com
   - DOMAIN-SUFFIX,nhentai.net
+  - DOMAIN-SUFFIX,njav.tv
   - DOMAIN-SUFFIX,nsimg.net
   - DOMAIN-SUFFIX,o0-2.com
   - DOMAIN-SUFFIX,ohyeah1080.com
@@ -176,6 +212,7 @@ payload:
   - DOMAIN-SUFFIX,playno1.com
   - DOMAIN-SUFFIX,popjav.tv
   - DOMAIN-SUFFIX,pornbest.org
+  - DOMAIN-SUFFIX,porndudecdn.com
   - DOMAIN-SUFFIX,pornhd.com
   - DOMAIN-SUFFIX,pornhub.com
   - DOMAIN-SUFFIX,pornhubpremium.com
@@ -197,13 +234,14 @@ payload:
   - DOMAIN-SUFFIX,sexzy4.com
   - DOMAIN-SUFFIX,soirt4.fun
   - DOMAIN-SUFFIX,south-plus.net
-  - DOMAIN-SUFFIX,spankbang.com
+  #- DOMAIN-SUFFIX,spankbang.com
   - DOMAIN-SUFFIX,stripchat.com
   - DOMAIN-SUFFIX,sub147.com
   - DOMAIN-SUFFIX,swag.live
   - DOMAIN-SUFFIX,t66y.com
   - DOMAIN-SUFFIX,tbr.tangbr.net
   - DOMAIN-SUFFIX,tellme.pw
+  - DOMAIN-SUFFIX,temancoli.bond
   - DOMAIN-SUFFIX,theav.cc
   - DOMAIN-SUFFIX,theporndude.com
   - DOMAIN-SUFFIX,thisav.com
@@ -241,14 +279,17 @@ payload:
   - DOMAIN-SUFFIX,vgg8.com
   - DOMAIN-SUFFIX,vjav.com
   - DOMAIN-SUFFIX,watchjavonline.com
+  - DOMAIN-SUFFIX,widgets.stripst.com
   - DOMAIN-SUFFIX,wuso.me
   - DOMAIN-SUFFIX,wzmyg.com
   - DOMAIN-SUFFIX,x-art.com
   - DOMAIN-SUFFIX,x18r.com
   - DOMAIN-SUFFIX,x99av.com
   - DOMAIN-SUFFIX,xhamster.com
+  - DOMAIN-SUFFIX,xhamster3.com
   - DOMAIN-SUFFIX,xhamsterlive.com
   - DOMAIN-SUFFIX,xhcdn.com
+  - DOMAIN-SUFFIX,xlivesex.com
   - DOMAIN-SUFFIX,xnxx-cdn.com
   - DOMAIN-SUFFIX,xnxx.com
   - DOMAIN-SUFFIX,xnxx.gold
@@ -260,5 +301,3 @@ payload:
   - DOMAIN-SUFFIX,youav.com
   - DOMAIN-SUFFIX,youjizz.com
   - DOMAIN-SUFFIX,youporn.com
-  - DOMAIN-SUFFIX,cdn77.scoreuniverse.com
-  - DOMAIN-SUFFIX,widgets.stripst.com
