@@ -1,7 +1,10 @@
 payload:
 
 # > Twitter
+  # domain keyword:
   - DOMAIN-KEYWORD,twitter
+
+  # domain suffix:
   - DOMAIN-SUFFIX,ads-twitter.com
   - DOMAIN-SUFFIX,periscope.tv
   - DOMAIN-SUFFIX,pscp.tv
@@ -14,4 +17,8 @@ payload:
   - DOMAIN-SUFFIX,twitterinc.com
   - DOMAIN-SUFFIX,twitteroauth.com
   - DOMAIN-SUFFIX,twitterstat.us
+  - DOMAIN-SUFFIX,twtrdns.net
   - DOMAIN-SUFFIX,twttr.com
+  - DOMAIN-SUFFIX,x.com
+
+  # destination port:
