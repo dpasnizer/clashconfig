@@ -1,44 +1,54 @@
 payload:
 
 # > Facebook
+  # domain keyword:
   - DOMAIN-KEYWORD,facebook
-  - DOMAIN-KEYWORD,fbcdn
+
+  # domain suffix:
   - DOMAIN-SUFFIX,accountkit.com
   - DOMAIN-SUFFIX,acebook.com
   - DOMAIN-SUFFIX,faacebook.com
   - DOMAIN-SUFFIX,facebbook.com
-  - DOMAIN-SUFFIX,facebook-dns.com
-  - DOMAIN-SUFFIX,facebook-hardware.com
+  - DOMAIN-SUFFIX,facebookcareers.com
   - DOMAIN-SUFFIX,facebook.co
   - DOMAIN-SUFFIX,facebook.com
   - DOMAIN-SUFFIX,facebook.com.au
   - DOMAIN-SUFFIX,facebook.com.mx
-  - DOMAIN-SUFFIX,facebook.it
-  - DOMAIN-SUFFIX,facebook.net
-  - DOMAIN-SUFFIX,facebookcareers.com
+  - DOMAIN-SUFFIX,facebook-dns.com
   - DOMAIN-SUFFIX,facebookenterprise.com
+  - DOMAIN-SUFFIX,facebook-hardware.com
+  - DOMAIN-SUFFIX,facebook.it
   - DOMAIN-SUFFIX,facebookmail.com
+  - DOMAIN-SUFFIX,facebook.net
   - DOMAIN-SUFFIX,facebookrecruiting.com
   - DOMAIN-SUFFIX,facebookstudy.com
   - DOMAIN-SUFFIX,facebookvirtualassistant.com
   - DOMAIN-SUFFIX,fb.audio
-  - DOMAIN-SUFFIX,fb.com
-  - DOMAIN-SUFFIX,fb.gg
-  - DOMAIN-SUFFIX,fb.me
-  - DOMAIN-SUFFIX,fb.watch
   - DOMAIN-SUFFIX,fbcdn.net
+  - DOMAIN-SUFFIX,fb.com
   - DOMAIN-SUFFIX,fbe2e.com
+  - DOMAIN-SUFFIX,fb.gg
   - DOMAIN-SUFFIX,fbinfra.net
+  - DOMAIN-SUFFIX,fb.me
   - DOMAIN-SUFFIX,fbpigeon.com
   - DOMAIN-SUFFIX,fbsbx.com
   - DOMAIN-SUFFIX,fbthirdpartypixel.com
+  - DOMAIN-SUFFIX,fb.watch
   - DOMAIN-SUFFIX,fbwat.ch
   - DOMAIN-SUFFIX,internet.org
   - DOMAIN-SUFFIX,m-freeway.com
   - DOMAIN-SUFFIX,parse.com
   - DOMAIN-SUFFIX,wit.ai
+
+  # destination port:
   
 # > Facebook Messenger
+  # domain keyword:
+  - DOMAIN-KEYWORD,messenger
+
+  # domain suffix:
   - DOMAIN-SUFFIX,m.me
   - DOMAIN-SUFFIX,messenger.com
   - DOMAIN-SUFFIX,msngr.com
+
+  # destination port:
