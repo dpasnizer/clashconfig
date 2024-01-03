@@ -1,7 +1,7 @@
 payload:
 
 # > WhatsApp
-  # domain keywords:
+  # domain keyword:
   - DOMAIN-KEYWORD,whatsapp
 
   # domain suffix:
