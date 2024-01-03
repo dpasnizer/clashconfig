@@ -1,7 +1,14 @@
 payload:
 
 # > Instagram
+  # domain keyword:
   - DOMAIN-KEYWORD,instagram
+
+  # domain suffix:
   - DOMAIN-SUFFIX,cdninstagram.com
   - DOMAIN-SUFFIX,ig.me
+  - DOMAIN-SUFFIX,igsonar.com
+  - DOMAIN-SUFFIX,instagram.c10r.facebook.com
   - DOMAIN-SUFFIX,instagram.com
+
+  # destination port:
