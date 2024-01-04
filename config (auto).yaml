@@ -98,7 +98,9 @@ proxy-groups:
 
 proxy-providers:
   UNIVERSAL:
-    type: file
+    type: http
+    url: "https://raw.githubusercontent.com/dpasnizer/clashconfig/main/proxy_provider/proxies.yaml"
+    interval: 3600
     path: "./proxy_provider/proxies.yaml"
     health-check:
       enable: true
