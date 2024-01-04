@@ -1,0 +1,168 @@
+---
+unified-delay: true
+
+# Clash router working mode
+# rule: rule-based packet routing
+# global: all packets will be forwarded to a single endpoint
+# direct: directly forward the packets to the Internet
+mode: rule
+
+# DNS server settings
+# This section is optional. When not present, the DNS server will be disabled.
+dns:
+  enable: true
+
+  # These nameservers are used to resolve the DNS nameserver hostnames below.
+  # Specify IP addresses only
+  default-nameserver:
+  # Option 1 | AdGuard DNS
+  # - 94.140.14.14
+  # - 94.140.15.15
+
+  # Option 2 | Cloudflare DNS
+  - 1.1.1.1
+  - 1.0.0.1
+
+  # Option 3 | Google DNS
+  # - 8.8.8.8
+  # - 8.8.4.4
+
+  # Supports UDP, TCP, DoT, DoH. You can specify the port to connect to.
+  # All DNS questions are sent directly to the nameserver, without proxies
+  # involved. Clash answers the DNS question with the first result gathered.
+  nameserver:
+    # Option 1 | AdGuard DNS
+    # - 94.140.14.14
+    # - 94.140.15.15
+    # - https://dns.adguard-dns.com/dns-query
+    # - tls://dns.adguard-dns.com
+
+    # Option 2 | Cloudflare DNS
+    - 1.1.1.1
+    - 1.0.0.1
+    - https://dns.cloudflare.com/dns-query
+    - tls://1dot1dot1dot1.cloudflare-dns.com
+
+    # Option 3 | Google DNS
+    # - 8.8.8.8
+    # - 8.8.4.4
+    # - https://dns.google/dns-query
+    # - tls://dns.google
+
+proxy-groups:
+# select is used for selecting proxy or proxy group
+- name: MANUAL SELECT
+  type: select
+  disable-udp: false
+  use:
+  - UNIVERSAL
+
+# select is used for selecting proxy or proxy group
+- name: SPECIAL ACCESS
+  type: select
+  disable-udp: false
+  proxies:
+  - REJECT
+  - BEST PING
+  - FALLBACK
+  - LOAD BALANCE
+
+# url-test select which proxy will be used by benchmarking speed to a URL.
+- name: BEST PING
+  type: url-test
+  disable-udp: false
+  use:
+  - UNIVERSAL
+  url: http://cp.cloudflare.com/generate_204
+  interval: '60'
+  tolerance: '150'
+
+# fallback selects an available policy by priority. The availability is tested by accessing an URL, just like an auto url-test group.
+- name: FALLBACK
+  type: fallback
+  disable-udp: false
+  use:
+  - UNIVERSAL
+  url: http://cp.cloudflare.com/generate_204
+  interval: '60'
+
+# load-balance: The request of the same eTLD+1 will be dial to the same proxy.
+- name: LOAD BALANCE
+  type: load-balance
+  strategy: round-robin
+  disable-udp: false
+  use:
+  - UNIVERSAL
+  url: http://cp.cloudflare.com/generate_204
+  interval: '60'
+
+proxy-providers:
+  UNIVERSAL:
+    type: file
+    path: "./proxy_provider/proxies.yaml"
+    health-check:
+      enable: true
+      url: http://cp.cloudflare.com/generate_204
+      interval: 60
+
+rule-providers:
+  DIRECT:
+    type: file
+    behavior: classical
+    path: "./rule_provider/direct.yaml"
+  REJECT:
+    type: file
+    behavior: classical
+    path: "./rule_provider/reject.yaml"
+  Adult:
+    type: file
+    behavior: classical
+    path: "./rule_provider/adult.yaml"
+  Facebook:
+    type: file
+    behavior: classical
+    path: "./rule_provider/facebook.yaml"
+  Games:
+    type: file
+    behavior: classical
+    path: "./rule_provider/games.yaml"
+  Instagram:
+    type: file
+    behavior: classical
+    path: "./rule_provider/instagram.yaml"
+  TikTok:
+    type: file
+    behavior: classical
+    path: "./rule_provider/tiktok.yaml"
+  Twitter:
+    type: file
+    behavior: classical
+    path: "./rule_provider/twitter.yaml"
+  WhatsApp:
+    type: file
+    behavior: classical
+    path: "./rule_provider/whatsapp.yaml"
+  YouTube:
+    type: file
+    behavior: classical
+    path: "./rule_provider/youtube.yaml"
+
+rules:
+# REJECT
+- RULE-SET,REJECT,REJECT
+
+# DIRECT
+- RULE-SET,DIRECT,DIRECT
+- RULE-SET,Games,DIRECT
+- RULE-SET,WhatsApp,DIRECT
+
+# SPECIAL ACCESS
+- RULE-SET,Adult,SPECIAL ACCESS
+
+# TUNNEL
+- RULE-SET,Facebook,GLOBAL
+- RULE-SET,Instagram,GLOBAL
+- RULE-SET,TikTok,GLOBAL
+- RULE-SET,Twitter,GLOBAL
+- RULE-SET,YouTube,GLOBAL
+- MATCH,GLOBAL
