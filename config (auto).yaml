@@ -5,7 +5,7 @@ unified-delay: true
 # rule: rule-based packet routing
 # global: all packets will be forwarded to a single endpoint
 # direct: directly forward the packets to the Internet
-mode: rule
+mode: global
 
 # DNS server settings
 # This section is optional. When not present, the DNS server will be disabled.
