@@ -456,7 +456,23 @@ tunnels:
     target: target.com
     proxy: proxy
 
+rule-providers:
+  apple:
+    behavior: "domain" # domain, ipcidr or classical (premium core only)
+    type: http
+    url: "url"
+    # format: 'yaml' # or 'text'
+    interval: 3600
+    path: ./apple.yaml
+  microsoft:
+    behavior: "domain"
+    type: file
+    path: /microsoft.yaml
+
 rules:
+  - RULE-SET,apple,REJECT
+  - RULE-SET,microsoft,policy
+  
   - DOMAIN-SUFFIX,google.com,auto
   - DOMAIN-KEYWORD,google,auto
   - DOMAIN,google.com,auto
