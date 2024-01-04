@@ -1,6 +1,12 @@
 ---
 unified-delay: true
 
+# Clash router working mode
+# rule: rule-based packet routing
+# global: all packets will be forwarded to a single endpoint
+# direct: directly forward the packets to the Internet
+mode: rule
+
 # DNS server settings
 # This section is optional. When not present, the DNS server will be disabled.
 dns:
