@@ -1,0 +1,3879 @@
+proxies:
+
+- name: "104.16.51.111"
+  type: trojan
+  server: 104.16.51.111
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.16.53.111"
+  type: trojan
+  server: 104.16.53.111
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.16.65.85"
+  type: trojan
+  server: 104.16.65.85
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.16.66.85"
+  type: trojan
+  server: 104.16.66.85
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.16.85.20"
+  type: trojan
+  server: 104.16.85.20
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.16.86.20"
+  type: trojan
+  server: 104.16.86.20
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.16.107.96"
+  type: trojan
+  server: 104.16.107.96
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.16.108.96"
+  type: trojan
+  server: 104.16.108.96
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.16.226.91"
+  type: trojan
+  server: 104.16.226.91
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.16.230.163"
+  type: trojan
+  server: 104.16.230.163
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.16.231.163"
+  type: trojan
+  server: 104.16.231.163
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.16.232.163"
+  type: trojan
+  server: 104.16.232.163
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.17.2.81"
+  type: trojan
+  server: 104.17.2.81
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.17.3.81"
+  type: trojan
+  server: 104.17.3.81
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.17.70.206"
+  type: trojan
+  server: 104.17.70.206
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.17.71.206"
+  type: trojan
+  server: 104.17.71.206
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.17.103.89"
+  type: trojan
+  server: 104.17.103.89
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.17.105.89"
+  type: trojan
+  server: 104.17.105.89
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.17.106.89"
+  type: trojan
+  server: 104.17.106.89
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.0.196"
+  type: trojan
+  server: 104.18.0.196
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.1.196"
+  type: trojan
+  server: 104.18.1.196
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.2.2"
+  type: trojan
+  server: 104.18.2.2
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.2.198"
+  type: trojan
+  server: 104.18.2.198
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.3.2"
+  type: trojan
+  server: 104.18.3.2
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.3.198"
+  type: trojan
+  server: 104.18.3.198
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.8.169"
+  type: trojan
+  server: 104.18.8.169
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.9.169"
+  type: trojan
+  server: 104.18.9.169
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.10.8"
+  type: trojan
+  server: 104.18.10.8
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.11.8"
+  type: trojan
+  server: 104.18.11.8
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.12.78"
+  type: trojan
+  server: 104.18.12.78
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.13.78"
+  type: trojan
+  server: 104.18.13.78
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.18.242"
+  type: trojan
+  server: 104.18.18.242
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.19.242"
+  type: trojan
+  server: 104.18.19.242
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.20.94"
+  type: trojan
+  server: 104.18.20.94
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.20.226"
+  type: trojan
+  server: 104.18.20.226
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.21.94"
+  type: trojan
+  server: 104.18.21.94
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.21.219"
+  type: trojan
+  server: 104.18.21.219
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.21.226"
+  type: trojan
+  server: 104.18.21.226
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.22.37"
+  type: trojan
+  server: 104.18.22.37
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.23.37"
+  type: trojan
+  server: 104.18.23.37
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.24.139"
+  type: trojan
+  server: 104.18.24.139
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.24.243"
+  type: trojan
+  server: 104.18.24.243
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.25.139"
+  type: trojan
+  server: 104.18.25.139
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.25.243"
+  type: trojan
+  server: 104.18.25.243
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.28.106"
+  type: trojan
+  server: 104.18.28.106
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.28.211"
+  type: trojan
+  server: 104.18.28.211
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.29.106"
+  type: trojan
+  server: 104.18.29.106
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.29.211"
+  type: trojan
+  server: 104.18.29.211
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.30.9"
+  type: trojan
+  server: 104.18.30.9
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.30.102"
+  type: trojan
+  server: 104.18.30.102
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.30.185"
+  type: trojan
+  server: 104.18.30.185
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.31.9"
+  type: trojan
+  server: 104.18.31.9
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.31.185"
+  type: trojan
+  server: 104.18.31.185
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.32.68"
+  type: trojan
+  server: 104.18.32.68
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.38.174"
+  type: trojan
+  server: 104.18.38.174
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.39.201"
+  type: trojan
+  server: 104.18.39.201
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.116.155"
+  type: trojan
+  server: 104.18.116.155
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.117.155"
+  type: trojan
+  server: 104.18.117.155
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.118.155"
+  type: trojan
+  server: 104.18.118.155
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.119.155"
+  type: trojan
+  server: 104.18.119.155
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.120.155"
+  type: trojan
+  server: 104.18.120.155
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.160.90"
+  type: trojan
+  server: 104.18.160.90
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.210.56"
+  type: trojan
+  server: 104.18.210.56
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.213.235"
+  type: trojan
+  server: 104.18.213.235
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.214.235"
+  type: trojan
+  server: 104.18.214.235
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.225.52"
+  type: trojan
+  server: 104.18.225.52
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.18.226.52"
+  type: trojan
+  server: 104.18.226.52
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.19.142.89"
+  type: trojan
+  server: 104.19.142.89
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.19.142.108"
+  type: trojan
+  server: 104.19.142.108
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.19.185.16"
+  type: trojan
+  server: 104.19.185.16
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.19.186.16"
+  type: trojan
+  server: 104.19.186.16
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.20.74.141"
+  type: trojan
+  server: 104.20.74.141
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.20.75.141"
+  type: trojan
+  server: 104.20.75.141
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.21.4.109"
+  type: trojan
+  server: 104.21.4.109
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.21.8.121"
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.21.21.147"
+  type: trojan
+  server: 104.21.21.147
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.21.43.51"
+  type: trojan
+  server: 104.21.43.51
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.21.44.146"
+  type: trojan
+  server: 104.21.44.146
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.21.64.112"
+  type: trojan
+  server: 104.21.64.112
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.21.67.36"
+  type: trojan
+  server: 104.21.67.36
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.21.69.223"
+  type: trojan
+  server: 104.21.69.223
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.21.71.112"
+  type: trojan
+  server: 104.21.71.112
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.21.73.168"
+  type: trojan
+  server: 104.21.73.168
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.21.73.208"
+  type: trojan
+  server: 104.21.73.208
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.21.78.142"
+  type: trojan
+  server: 104.21.78.142
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.21.83.237"
+  type: trojan
+  server: 104.21.83.237
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.21.85.160"
+  type: trojan
+  server: 104.21.85.160
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.21.96.123"
+  type: trojan
+  server: 104.21.96.123
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.21.235.171"
+  type: trojan
+  server: 104.21.235.171
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.21.235.172"
+  type: trojan
+  server: 104.21.235.172
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.22.2.25"
+  type: trojan
+  server: 104.22.2.25
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.22.3.25"
+  type: trojan
+  server: 104.22.3.25
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.22.5.240"
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.22.24.131"
+  type: trojan
+  server: 104.22.24.131
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.22.25.131"
+  type: trojan
+  server: 104.22.25.131
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.22.62.150"
+  type: trojan
+  server: 104.22.62.150
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.22.63.150"
+  type: trojan
+  server: 104.22.63.150
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.26.2.138"
+  type: trojan
+  server: 104.26.2.138
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.26.3.138"
+  type: trojan
+  server: 104.26.3.138
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.26.4.10"
+  type: trojan
+  server: 104.26.4.10
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.26.4.192"
+  type: trojan
+  server: 104.26.4.192
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.26.5.10"
+  type: trojan
+  server: 104.26.5.10
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.26.5.192"
+  type: trojan
+  server: 104.26.5.192
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.26.6.171"
+  type: trojan
+  server: 104.26.6.171
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.26.7.171"
+  type: trojan
+  server: 104.26.7.171
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.26.14.208"
+  type: trojan
+  server: 104.26.14.208
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "104.26.15.208"
+  type: trojan
+  server: 104.26.15.208
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "141.193.213.10"
+  type: trojan
+  server: 141.193.213.10
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "141.193.213.20"
+  type: trojan
+  server: 141.193.213.20
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "141.193.213.21"
+  type: trojan
+  server: 141.193.213.21
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "162.159.128.7"
+  type: trojan
+  server: 162.159.128.7
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "162.159.135.42"
+  type: trojan
+  server: 162.159.135.42
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "162.159.136.54"
+  type: trojan
+  server: 162.159.136.54
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "162.159.138.6"
+  type: trojan
+  server: 162.159.138.6
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "170.114.45.0"
+  type: trojan
+  server: 170.114.45.0
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "170.114.46.0"
+  type: trojan
+  server: 170.114.46.0
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "170.114.52.2"
+  type: trojan
+  server: 170.114.52.2
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "170.114.52.3"
+  type: trojan
+  server: 170.114.52.3
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "172.64.148.55"
+  type: trojan
+  server: 172.64.148.55
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "172.64.149.82"
+  type: trojan
+  server: 172.64.149.82
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "172.64.155.188"
+  type: trojan
+  server: 172.64.155.188
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "172.64.198.18"
+  type: trojan
+  server: 172.64.198.18
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "172.64.199.18"
+  type: trojan
+  server: 172.64.199.18
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "172.67.6.144"
+  type: trojan
+  server: 172.67.6.144
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "172.67.8.9"
+  type: trojan
+  server: 172.67.8.9
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "172.67.38.66"
+  type: trojan
+  server: 172.67.38.66
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "172.67.69.152"
+  type: trojan
+  server: 172.67.69.152
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "172.67.70.124"
+  type: trojan
+  server: 172.67.70.124
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "172.67.73.5"
+  type: trojan
+  server: 172.67.73.5
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "172.67.73.39"
+  type: trojan
+  server: 172.67.73.39
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "172.67.75.37"
+  type: trojan
+  server: 172.67.75.37
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "172.67.132.2"
+  type: trojan
+  server: 172.67.132.2
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "172.67.139.111"
+  type: trojan
+  server: 172.67.139.111
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "172.67.144.126"
+  type: trojan
+  server: 172.67.144.126
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "172.67.146.74"
+  type: trojan
+  server: 172.67.146.74
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "172.67.180.16"
+  type: trojan
+  server: 172.67.180.16
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "172.67.183.115"
+  type: trojan
+  server: 172.67.183.115
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "172.67.183.130"
+  type: trojan
+  server: 172.67.183.130
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "172.67.192.40"
+  type: trojan
+  server: 172.67.192.40
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "172.67.199.34"
+  type: trojan
+  server: 172.67.199.34
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "172.67.200.200"
+  type: trojan
+  server: 172.67.200.200
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "172.67.207.161"
+  type: trojan
+  server: 172.67.207.161
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "172.67.211.218"
+  type: trojan
+  server: 172.67.211.218
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "172.67.213.134"
+  type: trojan
+  server: 172.67.213.134
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "172.67.220.13"
+  type: trojan
+  server: 172.67.220.13
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "172.67.222.11"
+  type: trojan
+  server: 172.67.222.11
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "account-gopay.midtrans.com"
+  type: trojan
+  server: account-gopay.midtrans.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "account.pmang.game.naver.com"
+  type: trojan
+  server: account.pmang.game.naver.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "ak-hk.stream.music.joox.com"
+  type: trojan
+  server: ak-hk.stream.music.joox.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "almaiyyah.iainpare.ac.id"
+  type: trojan
+  server: almaiyyah.iainpare.ac.id
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "api.joox.com"
+  type: trojan
+  server: api.joox.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "api.midtrans.com"
+  type: trojan
+  server: api.midtrans.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "api.onesignal.com"
+  type: trojan
+  server: api.onesignal.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "api.ovo.id"
+  type: trojan
+  server: api.ovo.id
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "api.spotify.com"
+  type: trojan
+  server: api.spotify.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "api.visionplus.id"
+  type: trojan
+  server: api.visionplus.id
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "app.ganecadigital.com"
+  type: trojan
+  server: app.ganecadigital.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "app.midtrans.com"
+  type: trojan
+  server: app.midtrans.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "app.qiscus.com"
+  type: trojan
+  server: app.qiscus.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "apps.qiscus.com"
+  type: trojan
+  server: apps.qiscus.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "ava.game.naver.com"
+  type: trojan
+  server: ava.game.naver.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "beacon.liveon.id"
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "blog.clova.line.me"
+  type: trojan
+  server: blog.clova.line.me
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "blogs.microsoft.com"
+  type: trojan
+  server: blogs.microsoft.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "cacerts.digicert-cn.com"
+  type: trojan
+  server: cacerts.digicert-cn.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "cacerts.digicert.com"
+  type: trojan
+  server: cacerts.digicert.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "cacerts.geotrust.com"
+  type: trojan
+  server: cacerts.geotrust.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "cache.netflix.com"
+  type: trojan
+  server: cache.netflix.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "callinghelp.webex.com"
+  type: trojan
+  server: callinghelp.webex.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "care.pmang.game.naver.com"
+  type: trojan
+  server: care.pmang.game.naver.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "cdn.appsflyer.com"
+  type: trojan
+  server: cdn.appsflyer.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "cf-vod.nimo.tv"
+  type: trojan
+  server: cf-vod.nimo.tv
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "chat-xlcare.sociomile.com"
+  type: trojan
+  server: chat-xlcare.sociomile.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "chat.sociomile.com"
+  type: trojan
+  server: chat.sociomile.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "crl.comodoca.com"
+  type: trojan
+  server: crl.comodoca.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "cs-cb.clova.line.me"
+  type: trojan
+  server: cs-cb.clova.line.me
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "cs-ocr.clova.line.me"
+  type: trojan
+  server: cs-ocr.clova.line.me
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "df.game.naver.com"
+  type: trojan
+  server: df.game.naver.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "e-journal.iainpekalongan.ac.id"
+  type: trojan
+  server: e-journal.iainpekalongan.ac.id
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "elearning.uty.ac.id"
+  type: trojan
+  server: elearning.uty.ac.id
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "embed.tawk.to"
+  type: trojan
+  server: embed.tawk.to
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "ews.microsoft.com"
+  type: trojan
+  server: ews.microsoft.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "ganecadigital.com"
+  type: trojan
+  server: ganecadigital.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "go.appannie.com"
+  type: trojan
+  server: go.appannie.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "go.medallia.com"
+  type: trojan
+  server: go.medallia.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "golfbattle.miniclippt.com"
+  type: trojan
+  server: golfbattle.miniclippt.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "gomarketplacecontent-cf.zoom.us"
+  type: trojan
+  server: gomarketplacecontent-cf.zoom.us
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "gomarketplacefront-cf.zoom.us"
+  type: trojan
+  server: gomarketplacefront-cf.zoom.us
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "gw.ruangguru.com"
+  type: trojan
+  server: gw.ruangguru.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "hohm.microsoft.com"
+  type: trojan
+  server: hohm.microsoft.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "iaimnumetrolampung.ac.id"
+  type: trojan
+  server: iaimnumetrolampung.ac.id
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "iainkendari.ac.id"
+  type: trojan
+  server: iainkendari.ac.id
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "iainpare.ac.id"
+  type: trojan
+  server: iainpare.ac.id
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "iainpekalongan.ac.id"
+  type: trojan
+  server: iainpekalongan.ac.id
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "ichannel.musical.ly"
+  type: trojan
+  server: ichannel.musical.ly
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "img.email3.vidio.com"
+  type: trojan
+  server: img.email3.vidio.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "info.godaddy.com"
+  type: trojan
+  server: info.godaddy.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "info.microsoft.com"
+  type: trojan
+  server: info.microsoft.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "investor.medallia.com"
+  type: trojan
+  server: investor.medallia.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "investor.spotify.com"
+  type: trojan
+  server: investor.spotify.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "journal.iaimnumetrolampung.ac.id"
+  type: trojan
+  server: journal.iaimnumetrolampung.ac.id
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "journal.stkipnurulhuda.ac.id"
+  type: trojan
+  server: journal.stkipnurulhuda.ac.id
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "jurnal.uin-antasari.ac.id"
+  type: trojan
+  server: jurnal.uin-antasari.ac.id
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "lb.clova.line.me"
+  type: trojan
+  server: lb.clova.line.me
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "link.duniagames.co.id"
+  type: trojan
+  server: link.duniagames.co.id
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "lms.uin-antasari.ac.id"
+  type: trojan
+  server: lms.uin-antasari.ac.id
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "lsp.unisnu.ac.id"
+  type: trojan
+  server: lsp.unisnu.ac.id
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "m.muscdn.com"
+  type: trojan
+  server: m.muscdn.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "marketplacecontent-cf.zoom.us"
+  type: trojan
+  server: marketplacecontent-cf.zoom.us
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "marketplacefront-cf.zoom.us"
+  type: trojan
+  server: marketplacefront-cf.zoom.us
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "meet.unisnu.ac.id"
+  type: trojan
+  server: meet.unisnu.ac.id
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "microsoft-hohm.com"
+  type: trojan
+  server: microsoft-hohm.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "mikrotik.staia-sw.ac.id"
+  type: trojan
+  server: mikrotik.staia-sw.ac.id
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "note.microsoft.com"
+  type: trojan
+  server: note.microsoft.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "npca.netflix.com"
+  type: trojan
+  server: npca.netflix.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "ocsp.comodoca.com"
+  type: trojan
+  server: ocsp.comodoca.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "ocsp.globalsign.com"
+  type: trojan
+  server: ocsp.globalsign.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "ocsp.msocsp.com"
+  type: trojan
+  server: ocsp.msocsp.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "pid-webfrontek.liveon.id"
+  type: trojan
+  server: pid-webfrontek.liveon.id
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "pidgc-extoms.liveon.id"
+  type: trojan
+  server: pidgc-extoms.liveon.id
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "poe.garena.com"
+  type: trojan
+  server: poe.garena.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "pps.iainpekalongan.ac.id"
+  type: trojan
+  server: pps.iainpekalongan.ac.id
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "prod.msocsp.com"
+  type: trojan
+  server: prod.msocsp.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "prodi.staia-sw.ac.id"
+  type: trojan
+  server: prodi.staia-sw.ac.id
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "proxy.iainkendari.ac.id"
+  type: trojan
+  server: proxy.iainkendari.ac.id
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "quiz.int.vidio.com"
+  type: trojan
+  server: quiz.int.vidio.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "quiz.staging.vidio.com"
+  type: trojan
+  server: quiz.staging.vidio.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "quiz.vidio.com"
+  type: trojan
+  server: quiz.vidio.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "seal.globalsign.com"
+  type: trojan
+  server: seal.globalsign.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "sit.comet.xl.co.id"
+  type: trojan
+  server: sit.comet.xl.co.id
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "sogood.linefriends.com"
+  type: trojan
+  server: sogood.linefriends.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "staging.games.axis.co.id"
+  type: trojan
+  server: staging.games.axis.co.id
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "static.line-scdn.net"
+  type: trojan
+  server: static.line-scdn.net
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "steialishlah.ac.id"
+  type: trojan
+  server: steialishlah.ac.id
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "stkipnurulhuda.ac.id"
+  type: trojan
+  server: stkipnurulhuda.ac.id
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "stream-cdn.mncnow.id"
+  type: trojan
+  server: stream-cdn.mncnow.id
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "stream.visionplus.id"
+  type: trojan
+  server: stream.visionplus.id
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "support-whatsapp.zendesk.com"
+  type: trojan
+  server: support-whatsapp.zendesk.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "support.liveon.id"
+  type: trojan
+  server: support.liveon.id
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "support.zoom.us"
+  type: trojan
+  server: support.zoom.us
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "telkomsel.udemy.com"
+  type: trojan
+  server: telkomsel.udemy.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "tiktokcdn.com.c.worldfcdn.com"
+  type: trojan
+  server: tiktokcdn.com.c.worldfcdn.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "tiktokv.com.c.worldfcdn2.com"
+  type: trojan
+  server: tiktokv.com.c.worldfcdn2.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "tracker.metricool.com"
+  type: trojan
+  server: tracker.metricool.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "ttlivecdn.com.c.worldfcdn.com"
+  type: trojan
+  server: ttlivecdn.com.c.worldfcdn.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "tubsd1478a630640.zendesk.com"
+  type: trojan
+  server: tubsd1478a630640.zendesk.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "unisnu.ac.id"
+  type: trojan
+  server: unisnu.ac.id
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "updates.netflix.com"
+  type: trojan
+  server: updates.netflix.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "us02web.zoom.us"
+  type: trojan
+  server: us02web.zoom.us
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "v1-cdn.cricket.miniclippt.com"
+  type: trojan
+  server: v1-cdn.cricket.miniclippt.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "v27.tiktokcdn.com"
+  type: trojan
+  server: v27.tiktokcdn.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "v38.tiktokcdn.com"
+  type: trojan
+  server: v38.tiktokcdn.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "video.joox.com"
+  type: trojan
+  server: video.joox.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "visionplus.id"
+  type: trojan
+  server: visionplus.id
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "vx-cdn.golfbattle.miniclippt.com"
+  type: trojan
+  server: vx-cdn.golfbattle.miniclippt.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "www.shopee.com"
+  type: trojan
+  server: www.shopee.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "www.skillacademy.com"
+  type: trojan
+  server: www.skillacademy.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "www.spotify.com"
+  type: trojan
+  server: www.spotify.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "www.steialishlah.ac.id"
+  type: trojan
+  server: www.steialishlah.ac.id
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "www.sushiroll.co.id"
+  type: trojan
+  server: www.sushiroll.co.id
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "www.udemy.com"
+  type: trojan
+  server: www.udemy.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "www.visionplus.id"
+  type: trojan
+  server: www.visionplus.id
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "www.wasa.com"
+  type: trojan
+  server: www.wasa.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "www.zoom.us"
+  type: trojan
+  server: www.zoom.us
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "xlcare.sociomile.com"
+  type: trojan
+  server: xlcare.sociomile.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "zendesk1.appsflyer.com"
+  type: trojan
+  server: zendesk1.appsflyer.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "zendesk1.garena.com"
+  type: trojan
+  server: zendesk1.garena.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "zendesk1.grab.com"
+  type: trojan
+  server: zendesk1.grab.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "zendesk1.grabtaxi.com"
+  type: trojan
+  server: zendesk1.grabtaxi.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "zendesk1.shopee.ph"
+  type: trojan
+  server: zendesk1.shopee.ph
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "zendesk1.shopee.sg"
+  type: trojan
+  server: zendesk1.shopee.sg
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "zendesk1.shopee.tw"
+  type: trojan
+  server: zendesk1.shopee.tw
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "zendesk3.tickets.netflix.com"
+  type: trojan
+  server: zendesk3.tickets.netflix.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "zendesk4.grabtaxi.com"
+  type: trojan
+  server: zendesk4.grabtaxi.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "zendesk4.tickets.netflix.com"
+  type: trojan
+  server: zendesk4.tickets.netflix.com
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "zoom.us"
+  type: trojan
+  server: zoom.us
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
+
+- name: "zoomcares.zoom.us"
+  type: trojan
+  server: zoomcares.zoom.us
+  port: 443
+  password: 45a0ca6e-0c05-46c5-bb19-ac1d3f12c3e3
+  udp: true
+  sni: rmatvpn.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: rmatvpn.my.id
