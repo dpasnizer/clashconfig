@@ -57,16 +57,6 @@ proxy-groups:
   use:
   - UNIVERSAL
 
-# select is used for selecting proxy or proxy group
-- name: SPECIAL ACCESS
-  type: select
-  disable-udp: false
-  proxies:
-  - REJECT
-  - BEST PING
-  - FALLBACK
-  - LOAD BALANCE
-
 # url-test select which proxy will be used by benchmarking speed to a URL.
 - name: BEST PING
   type: url-test
@@ -107,64 +97,5 @@ proxy-providers:
       url: http://cp.cloudflare.com/generate_204
       interval: 60
 
-rule-providers:
-  DIRECT:
-    type: file
-    behavior: classical
-    path: "./rule_provider/direct.yaml"
-  REJECT:
-    type: file
-    behavior: classical
-    path: "./rule_provider/reject.yaml"
-  Adult:
-    type: file
-    behavior: classical
-    path: "./rule_provider/adult.yaml"
-  Facebook:
-    type: file
-    behavior: classical
-    path: "./rule_provider/facebook.yaml"
-  Games:
-    type: file
-    behavior: classical
-    path: "./rule_provider/games.yaml"
-  Instagram:
-    type: file
-    behavior: classical
-    path: "./rule_provider/instagram.yaml"
-  TikTok:
-    type: file
-    behavior: classical
-    path: "./rule_provider/tiktok.yaml"
-  Twitter:
-    type: file
-    behavior: classical
-    path: "./rule_provider/twitter.yaml"
-  WhatsApp:
-    type: file
-    behavior: classical
-    path: "./rule_provider/whatsapp.yaml"
-  YouTube:
-    type: file
-    behavior: classical
-    path: "./rule_provider/youtube.yaml"
-
 rules:
-# REJECT
-- RULE-SET,REJECT,REJECT
-
-# DIRECT
-- RULE-SET,DIRECT,DIRECT
-- RULE-SET,Games,DIRECT
-- RULE-SET,WhatsApp,DIRECT
-
-# SPECIAL ACCESS
-- RULE-SET,Adult,SPECIAL ACCESS
-
-# TUNNEL
-- RULE-SET,Facebook,GLOBAL
-- RULE-SET,Instagram,GLOBAL
-- RULE-SET,TikTok,GLOBAL
-- RULE-SET,Twitter,GLOBAL
-- RULE-SET,YouTube,GLOBAL
 - MATCH,GLOBAL
