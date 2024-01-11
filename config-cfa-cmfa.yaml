@@ -91,7 +91,7 @@ proxy-providers:
     type: http
     url: "https://raw.githubusercontent.com/dpasnizer/clashconfig/main/proxy_provider/proxies.yaml"
     interval: 3600
-    path: "./proxy_provider/proxies.yaml"
+    path: "./proxies.yaml"
     health-check:
       enable: true
       url: http://cp.cloudflare.com/generate_204
