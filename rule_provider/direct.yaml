@@ -29,6 +29,9 @@ payload:
   # LinkAja
   - DOMAIN-SUFFIX,linkaja.com
   
+  # MyXL
+  - DOMAIN-SUFFIX,api.myxl.xlaxiata.co.id
+  
   # Neo Bank
   - DOMAIN-SUFFIX,bankneo.co.id
   
