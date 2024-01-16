@@ -4,14 +4,42 @@ payload:
   - IP-CIDR,192.168.1.1/24
   
 # > CUSTOM
-  # BRImo
-  - DOMAIN,brimo.bri.co.id
-  
-  # Cloudflare
-  - DOMAIN-SUFFIX,cloudflare.com
-  
+  ## E-Wallet
   # Dana
   - DOMAIN-SUFFIX,m.dana.id
+  # GoPay
+  - DOMAIN-SUFFIX,gojekapi.com
+  - DOMAIN-SUFFIX,gopayapi.com
+  # LinkAja
+  - DOMAIN-SUFFIX,linkaja.com
+  # OVO
+  - DOMAIN-SUFFIX,ovo.id
+
+  ## ISP
+  # MyXL
+  - DOMAIN-SUFFIX,api.myxl.xlaxiata.co.id
+
+  ## M-Banking
+  # BRImo
+  - DOMAIN,brimo.bri.co.id
+  # Neo Bank
+  - DOMAIN-SUFFIX,bankneo.co.id
+  # SeaBank
+  - DOMAIN-SUFFIX,seabank.co.id
+
+  ## Marketplace
+  # Shopee
+  - DOMAIN,api.shopee.co.id
+  - DOMAIN,cf.shopee.co.id
+  - DOMAIN,seller-app.shopee.co.id
+  - DOMAIN-SUFFIX,shopee.io
+  - DOMAIN-SUFFIX,shopeemobile.com
+  # Tokopedia
+  - DOMAIN,www.tokopedia.com
+
+  ## Others
+  # Cloudflare
+  - DOMAIN-SUFFIX,cloudflare.com
   
   # Datatabu
   - DOMAIN-SUFFIX,datatabu.com
@@ -22,39 +50,10 @@ payload:
   # Google reCaptcha
   - DOMAIN,www.google.com
   
-  # GoPay
-  - DOMAIN-SUFFIX,gojekapi.com
-  - DOMAIN-SUFFIX,gopayapi.com
-  
-  # LinkAja
-  - DOMAIN-SUFFIX,linkaja.com
-  
-  # MyXL
-  - DOMAIN-SUFFIX,api.myxl.xlaxiata.co.id
-  
-  # Neo Bank
-  - DOMAIN-SUFFIX,bankneo.co.id
-  
-  # OVO
-  - DOMAIN-SUFFIX,ovo.id
-  
   # PLN Mobile
   - DOMAIN,connect-gateway.pln.co.id
   - DOMAIN-SUFFIX,iconcash.id
   - DOMAIN-SUFFIX,plndigital.id
-  
-  # SeaBank
-  - DOMAIN-SUFFIX,seabank.co.id
-  
-  # Shopee
-  - DOMAIN,api.shopee.co.id
-  - DOMAIN,cf.shopee.co.id
-  - DOMAIN,seller-app.shopee.co.id
-  - DOMAIN-SUFFIX,shopee.io
-  - DOMAIN-SUFFIX,shopeemobile.com
-  
-  # Tokopedia
-  - DOMAIN,www.tokopedia.com
   
   # Ujang Gatrik
   - DOMAIN,siujang.esdm.go.id
@@ -63,6 +62,3 @@ payload:
   - DOMAIN-SUFFIX,zerotier.com
   - DST-PORT,43899
   - DST-PORT,9993
-  
-  # Zoom
-  #- DOMAIN-SUFFIX,zoom.us
