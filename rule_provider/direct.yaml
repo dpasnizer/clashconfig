@@ -15,8 +15,14 @@ payload:
   - DOMAIN-SUFFIX,ovo.id
 
 # > ISP
-  # MyXL
-  - DOMAIN-SUFFIX,api.myxl.xlaxiata.co.id
+  # AXISnet
+  - DOMAIN,api.axis.co.id
+  # bima+
+  - DOMAIN,bimaplus.tri.co.id
+  # by.U
+  - DOMAIN,api.byu.id
+  # myXL
+  - DOMAIN,api.myxl.xlaxiata.co.id
 
 # > M-Banking
   # BRImo
