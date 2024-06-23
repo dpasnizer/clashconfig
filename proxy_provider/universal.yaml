@@ -1,0 +1,50 @@
+# CDN-SSL
+trojan-cdn: &trojan-cdn
+  type: trojan
+  port: 443
+  password: 7b5b20b5-2332-468f-9290-d6e8ecf6117a
+  udp: true
+  sni: do-viprext.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+    headers:
+      Host: do-viprext.my.id
+
+# SNI-SSL
+trojan-sni: &trojan-sni
+  type: trojan
+  server: do-viprext.my.id
+  port: 443
+  password: 7b5b20b5-2332-468f-9290-d6e8ecf6117a
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+    headers:
+      Host: do-viprext.my.id
+
+proxies:
+##### CDN-SSL #####
+- name: "104.18.2.2"
+  <<: *trojan-cdn
+  server: 104.18.2.2
+
+- name: "104.18.3.2"
+  <<: *trojan-cdn
+  server: 104.18.3.2
+
+- name: "quiz.int.vidio.com"
+  <<: *trojan-cdn
+  server: quiz.int.vidio.com
+
+- name: "172.67.5.14"
+  <<: *trojan-cdn
+  server: 172.67.5.14
+
+##### SNI-SSL #####
+# - name: "172.67.5.14"
+#   <<: *trojan-sni
+#   sni: 172.67.5.14
