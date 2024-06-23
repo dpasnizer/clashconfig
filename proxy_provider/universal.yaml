@@ -56,3 +56,18 @@ proxies:
 # - name: "172.67.5.14"
 #   <<: *trojan-sni
 #   sni: 172.67.5.14
+
+
+- name: Trojan GO/WS (CDN)
+  server: api.midtrans.com
+  port: 443
+  type: trojan
+  password: 02777e1f-2bc3-47b6-a145-b9b7278edd18
+  network: ws
+  sni: id-ikd.webkuy.my.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan
+    headers:
+        Host: id-ikd.webkuy.my.id
