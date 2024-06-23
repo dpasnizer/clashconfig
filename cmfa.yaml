@@ -4,7 +4,7 @@ unified-delay: true
 # rule: rule-based packet routing
 # global: all packets will be forwarded to a single endpoint
 # direct: directly forward the packets to the Internet
-mode: global
+mode: rule
 
 dns:
   enable: true
@@ -114,9 +114,3 @@ proxy-groups:
     strategy: round-robin
     use:
       - UNIVERSAL
-
-  # - name: "DIRECT"
-  #   type: select
-  #   # disable-udp: true
-  #   use:
-  #     - DIRECT
