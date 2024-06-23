@@ -115,8 +115,8 @@ proxy-groups:
     use:
       - UNIVERSAL
 
-  - name: "DIRECT"
-    type: select
-    # disable-udp: true
-    use:
-      - DIRECT
+  # - name: "DIRECT"
+  #   type: select
+  #   # disable-udp: true
+  #   use:
+  #     - DIRECT
