@@ -2,15 +2,19 @@
 trojan-cdn: &trojan-cdn
   type: trojan
   port: 443
-  password: 7b5b20b5-2332-468f-9290-d6e8ecf6117a
+  # password: 7b5b20b5-2332-468f-9290-d6e8ecf6117a
+  password: 02777e1f-2bc3-47b6-a145-b9b7278edd18
   udp: true
-  sni: do-viprext.my.id
+  # sni: do-viprext.my.id
+  sni: id-ikd.webkuy.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: "/trojan-ws"
+    # path: "/trojan-ws"
+    path: "/trojan"
     headers:
-      Host: do-viprext.my.id
+      # Host: do-viprext.my.id
+      Host: id-ikd.webkuy.my.id
 
 # SNI-SSL
 trojan-sni: &trojan-sni
