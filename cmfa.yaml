@@ -67,8 +67,8 @@ proxy-providers-anchor:
 proxy-providers:
   UNIVERSAL:
     <<: *http
-    url: "url"
-    path: "./path/to/save/file.yaml"
+    url: "https://raw.githubusercontent.com/dpasnizer/clashconfig/main/proxy_provider/universal.yaml"
+    path: "./universal.yaml"
   
   # example-file:
   #   <<: *file
