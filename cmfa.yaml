@@ -1,0 +1,124 @@
+unified-delay: true
+
+# Clash router working mode
+# rule: rule-based packet routing
+# global: all packets will be forwarded to a single endpoint
+# direct: directly forward the packets to the Internet
+mode: global
+
+dns:
+  enable: true
+
+  # These nameservers are used to resolve the DNS nameserver hostnames below.
+  # Specify IP addresses only
+  default-nameserver:
+    # Option 1 | AdGuard DNS
+    # - 94.140.14.14
+    # - 94.140.15.15
+
+    # Option 2 | Cloudflare DNS
+    - 1.1.1.1
+    - 1.0.0.1
+
+    # Option 3 | Google DNS
+    # - 8.8.8.8
+    # - 8.8.4.4
+
+  # Supports UDP, TCP, DoT, DoH. You can specify the port to connect to.
+  # All DNS questions are sent directly to the nameserver, without proxies
+  # involved. Clash answers the DNS question with the first result gathered.
+  nameserver:
+    # Option 1 | AdGuard DNS
+    # - 94.140.14.14
+    # - 94.140.15.15
+    # - https://dns.adguard-dns.com/dns-query
+    # - tls://dns.adguard-dns.com
+
+    # Option 2 | Cloudflare DNS
+    - 1.1.1.1
+    - 1.0.0.1
+    - https://dns.cloudflare.com/dns-query
+    - tls://1dot1dot1dot1.cloudflare-dns.com
+
+    # Option 3 | Google DNS
+    # - 8.8.8.8
+    # - 8.8.4.4
+    # - https://dns.google/dns-query
+    # - tls://dns.google
+
+proxies:
+
+proxy-providers-anchor:
+  file: &file
+    type: file
+    health-check:
+      enable: true
+      interval: 60
+      url: "http://www.gstatic.com/generate_204"
+
+  http: &http
+    type: http
+    interval: 3600
+    health-check:
+      enable: true
+      interval: 60
+      url: "http://www.gstatic.com/generate_204"
+
+proxy-providers:
+  UNIVERSAL:
+    <<: *http
+    url: "url"
+    path: "./path/to/save/file.yaml"
+  
+  # example-file:
+  #   <<: *file
+  #   path: "./path/to/file.yaml"
+
+  # example-http:
+  #   <<: *http
+  #   url: "url"
+  #   path: "./path/to/save/file.yaml"
+
+proxy-groups-anchor:
+  ping: &ping
+    url: "http://www.gstatic.com/generate_204"
+    interval: 60
+
+proxy-groups:
+  # url-test select which proxy will be used by benchmarking speed to a URL.
+  - name: "BEST PING"
+    <<: *ping
+    type: url-test
+    tolerance: 150
+    use:
+      - UNIVERSAL
+
+  # select is used for selecting proxy or proxy group
+  # you can use RESTful API to switch proxy is recommended for use in GUI.
+  - name: "MANUAL SELECT"
+    type: select
+    # disable-udp: true
+    use:
+      - UNIVERSAL
+
+  # fallback selects an available policy by priority. The availability is tested by accessing an URL, just like an auto url-test group.
+  - name: "FALLBACK"
+    <<: *ping
+    type: fallback
+    use:
+      - UNIVERSAL
+
+  # load-balance: The request of the same eTLD+1 will be dial to the same proxy.
+  # strategy: consistent-hashing or round-robin
+  - name: "LOAD BALANCE"
+    <<: *ping
+    type: load-balance
+    strategy: round-robin
+    use:
+      - UNIVERSAL
+
+  - name: "DIRECT"
+    type: select
+    # disable-udp: true
+    use:
+      - DIRECT
