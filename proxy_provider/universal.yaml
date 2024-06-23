@@ -28,6 +28,10 @@ trojan-sni: &trojan-sni
 
 proxies:
 ##### CDN-SSL #####
+- name: "api.midtrans.com"
+  <<: *trojan-cdn
+  server: api.midtrans.com
+
 - name: "104.18.2.2"
   <<: *trojan-cdn
   server: 104.18.2.2
