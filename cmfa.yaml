@@ -46,8 +46,6 @@ dns:
     # - https://dns.google/dns-query
     # - tls://dns.google
 
-proxies:
-
 proxy-providers-anchor:
   file: &file
     type: file
