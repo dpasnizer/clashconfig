@@ -22,7 +22,7 @@ payload:
   # by.U
   - DOMAIN,api.byu.id
   # myXL
-  - DOMAIN,api.myxl.xlaxiata.co.id
+  - DOMAIN-KEYWORD,xlaxiata
 
 # > M-Banking
   # BRImo
