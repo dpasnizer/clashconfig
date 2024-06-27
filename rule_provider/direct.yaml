@@ -56,8 +56,8 @@ payload:
   - DOMAIN,www.google.com
   
   # PLN Mobile
-  - DOMAIN,connect-gateway.pln.co.id
   - DOMAIN-SUFFIX,iconcash.id
+  - DOMAIN-SUFFIX,pln.co.id
   - DOMAIN-SUFFIX,plndigital.id
   
   # Ujang Gatrik
