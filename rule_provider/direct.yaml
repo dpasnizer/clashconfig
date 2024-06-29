@@ -40,7 +40,9 @@ payload:
   - DOMAIN-SUFFIX,shopee.io
   - DOMAIN-SUFFIX,shopeemobile.com
   # Tokopedia
-  - DOMAIN,www.tokopedia.com
+  - DOMAIN,gql.tokopedia.com
+  - DOMAIN,hub.tokopedia.com
+  - DOMAIN,ecs7.tokopedia.net
 
 # > Others
   # Cloudflare
