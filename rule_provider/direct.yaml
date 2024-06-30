@@ -45,26 +45,24 @@ payload:
   - DOMAIN,ecs7.tokopedia.net
 
 # > Others
+  # BukaOlshop
+  - DOMAIN,api2.bukaolshop.com
+  - DOMAIN,storage3.bukaolshop.com
+  - DOMAIN,openapi.bukaolshop.net
   # Cloudflare
   - DOMAIN-SUFFIX,cloudflare.com
-  
   # Datatabu
   - DOMAIN-SUFFIX,datatabu.com
-  
   # Github
   - DOMAIN,raw.githubusercontent.com
-  
   # Google reCaptcha
   - DOMAIN,www.google.com
-  
   # PLN Mobile
   - DOMAIN-SUFFIX,iconcash.id
   - DOMAIN-SUFFIX,pln.co.id
   - DOMAIN-SUFFIX,plndigital.id
-  
   # Ujang Gatrik
   - DOMAIN,siujang.esdm.go.id
-  
   # Zerotier
   - DOMAIN-SUFFIX,zerotier.com
   - DST-PORT,43899
