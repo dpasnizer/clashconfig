@@ -16,6 +16,7 @@ payload:
   - DST-PORT,9340
   
   # Domino QiuQiu
+  - DST-PORT,6003
   - DST-PORT,8203
   
   # Mobile Legends: Bang Bang
